@@ -1,0 +1,21 @@
+{
+  "name": "claude-code-awesome",
+  "owner": {
+    "name": "AdrianR84"
+  },
+  "description": "A marketplace for Claude Code plugins and extensions",
+  "plugins": [
+    {
+      "name": "telegram-notifications",
+      "source": {
+        "source": "github",
+        "repo": "adrianR84/claude-code-telegram-notifications"
+      },
+      "description": "Telegram notifications for Claude Code events",
+      "category": "development",
+      "author": {
+        "name": "AdrianR84"
+      }
+    }
+  ]
+}
