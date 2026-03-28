@@ -45,6 +45,18 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install toast-notifications@claude-code-awesome
   ```
 
+### Browserless
+
+- **Name**: `browserless`
+- **Description**: Browser automation and web scraping capabilities for Claude Code
+- **Category**: Development
+- **Repository**: <a href="https://github.com/browserless/claude-plugin" target="_blank">browserless/claude-plugin</a>
+- **Keywords**: browser automation, web scraping
+- **Installation**:
+  ```bash
+  /plugin install browserless@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
