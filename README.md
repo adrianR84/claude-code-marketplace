@@ -26,7 +26,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Description**: Telegram notifications for Claude Code events
 - **Category**: Development
 - **Author**: AdrianR84
-- **Repository**: [adrianR84/claude-code-telegram-notifications](https://github.com/adrianR84/claude-code-telegram-notifications){:target="\_blank"}
+- **Repository**: <a href="https://github.com/adrianR84/claude-code-telegram-notifications" target="_blank">adrianR84/claude-code-telegram-notifications</a>
 - **Keywords**: telegram, notifications, hooks
 - **Installation**:
   ```bash
@@ -38,7 +38,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Name**: `toast-notifications`
 - **Description**: Windows toast notifications for Claude Code events using native Windows APIs
 - **Category**: Development
-- **Repository**: [TianqiZhang/claude-code-toast](https://github.com/TianqiZhang/claude-code-toast){:target="\_blank"}
+- **Repository**: <a href="https://github.com/TianqiZhang/claude-code-toast" target="_blank">TianqiZhang/claude-code-toast</a>
 - **Keywords**: windows toast, notifications
 - **Installation**:
   ```bash
