@@ -2,6 +2,34 @@
 
 A curated marketplace for Claude Code plugins and extensions, focusing on useful tools that enhance your development workflow.
 
+## ⚙️ Adding this Marketplace to Claude Code
+
+To add this marketplace to your Claude Code environment, you have several options:
+
+### Method 1: Using the Command Line
+
+```bash
+/plugin marketplace add https://github.com/adrianR84/claude-code-marketplace
+```
+
+### Method 2: Automatic Discovery
+
+Claude Code will automatically discover this marketplace when you install plugins using the full marketplace identifier:
+
+```bash
+/plugin install telegram-notifications@claude-code-awesome
+```
+
+### Verifying Installation
+
+To verify that the marketplace has been added successfully:
+
+```bash
+/plugin marketplace list
+```
+
+You should see `claude-code-awesome` in the list of available marketplaces.
+
 ## 🚀 Available Plugins
 
 ### Telegram Notifications
