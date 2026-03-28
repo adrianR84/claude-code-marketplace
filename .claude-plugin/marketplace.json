@@ -13,9 +13,22 @@
       },
       "description": "Telegram notifications for Claude Code events",
       "category": "development",
+      "repository": "https://github.com/adrianR84/claude-code-telegram-notifications",
+      "keywords": ["telegram", "notifications", "hooks"],
       "author": {
         "name": "AdrianR84"
       }
+    },
+    {
+      "name": "toast-notifications",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/TianqiZhang/claude-code-toast"
+      },
+      "description": "Windows toast notifications for Claude Code events using native Windows APIs.",
+      "category": "development",
+      "repository": "https://github.com/TianqiZhang/claude-code-toast",
+      "keywords": ["windows toast", "notifications"]
     }
   ]
 }

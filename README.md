@@ -2,22 +2,10 @@
 
 A curated marketplace for Claude Code plugins and extensions, focusing on useful tools that enhance your development workflow.
 
-## ⚙️ Adding this Marketplace to Claude Code
-
-To add this marketplace to your Claude Code environment, you have several options:
-
-### Method 1: Using the Command Line
+## ⚙️ Add this marketplace to Claude Code environment
 
 ```bash
 /plugin marketplace add https://github.com/adrianR84/claude-code-marketplace
-```
-
-### Method 2: Automatic Discovery
-
-Claude Code will automatically discover this marketplace when you install plugins using the full marketplace identifier:
-
-```bash
-/plugin install telegram-notifications@claude-code-awesome
 ```
 
 ### Verifying Installation
@@ -38,25 +26,26 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Description**: Telegram notifications for Claude Code events
 - **Category**: Development
 - **Author**: AdrianR84
-- **Source**: [adrianR84/claude-code-telegram-notifications](https://github.com/adrianR84/claude-code-telegram-notifications)
+- **Repository**: [adrianR84/claude-code-telegram-notifications](https://github.com/adrianR84/claude-code-telegram-notifications)
+- **Keywords**: telegram, notifications, hooks
+- **Installation**:
+  ```bash
+  /plugin install telegram-notifications@claude-code-awesome
+  ```
 
-## 📦 Installation
+### Toast Notifications
 
-To install plugins from this marketplace, use the following command format:
+- **Name**: `toast-notifications`
+- **Description**: Windows toast notifications for Claude Code events using native Windows APIs
+- **Category**: Development
+- **Repository**: [TianqiZhang/claude-code-toast](https://github.com/TianqiZhang/claude-code-toast)
+- **Keywords**: windows toast, notifications
+- **Installation**:
+  ```bash
+  /plugin install toast-notifications@claude-code-awesome
+  ```
 
-```bash
-/plugin install plugin-name@claude-code-awesome
-```
-
-### Example
-
-Install the Telegram notifications plugin:
-
-```bash
-/plugin install telegram-notifications@claude-code-awesome
-```
-
-## 🔧 Usage
+## Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
 
