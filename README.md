@@ -60,7 +60,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 ### Greeting
 
 - **Name**: `greeting`
-- **Description**: Greeting plugin for Claude Code
+- **Description**: A customizable greeting plugin for Claude Code that demonstrates user-configurable settings
 - **Category**: Development
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-greeting" target="_blank">adrianR84/claude-code-greeting</a>
 - **Keywords**: greeting
