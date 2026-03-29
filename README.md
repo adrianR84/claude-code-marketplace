@@ -57,6 +57,18 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install browserless@claude-code-awesome
   ```
 
+### Greeting
+
+- **Name**: `greeting`
+- **Description**: Greeting plugin for Claude Code
+- **Category**: Development
+- **Repository**: <a href="https://github.com/adrianR84/claude-code-greeting" target="_blank">adrianR84/claude-code-greeting</a>
+- **Keywords**: greeting
+- **Installation**:
+  ```bash
+  /plugin install greeting@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
