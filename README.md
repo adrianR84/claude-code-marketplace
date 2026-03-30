@@ -69,6 +69,18 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install greeting@claude-code-awesome
   ```
 
+### Protective Hooks
+
+- **Name**: `protective-hooks`
+- **Description**: Security hooks for Claude Code
+- **Category**: Security
+- **Repository**: <a href="https://github.com/adrianR84/claude-code-protective-hooks" target="_blank">adrianR84/claude-code-protective-hooks</a>
+- **Keywords**: security, hooks, protection, secrets, dangerous-commands
+- **Installation**:
+  ```bash
+  /plugin install protective-hooks@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

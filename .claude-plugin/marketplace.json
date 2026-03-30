@@ -51,6 +51,17 @@
       "category": "development",
       "repository": "https://github.com/adrianR84/claude-code-greeting",
       "keywords": ["greeting"]
+    },
+    {
+      "name": "protective-hooks",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adrianR84/claude-code-protective-hooks"
+      },
+      "description": "Security hooks for Claude Code",
+      "category": "security",
+      "repository": "https://github.com/adrianR84/claude-code-protective-hooks",
+      "keywords": ["security", "hooks", "protection", "secrets", "dangerous-commands"]
     }
   ]
 }
