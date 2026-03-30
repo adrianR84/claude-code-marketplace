@@ -34,11 +34,11 @@
       "name": "browserless",
       "source": {
         "source": "url",
-        "url": "https://github.com/browserless/claude-plugin"
+        "url": "https://github.com/adrianR84/browserless-claude-plugin"
       },
       "description": "Browser automation and web scraping capabilities for Claude Code.",
       "category": "development",
-      "repository": "https://github.com/browserless/claude-plugin",
+      "repository": "https://github.com/adrianR84/browserless-claude-plugin",
       "keywords": ["browser automation", "web scraping"]
     },
     {

@@ -50,7 +50,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Name**: `browserless`
 - **Description**: Browser automation and web scraping capabilities for Claude Code
 - **Category**: Development
-- **Repository**: <a href="https://github.com/browserless/claude-plugin" target="_blank">browserless/claude-plugin</a>
+- **Repository**: <a href="https://github.com/adrianR84/browserless-claude-plugin" target="_blank">adrianR84/browserless-claude-plugin</a>
 - **Keywords**: browser automation, web scraping
 - **Installation**:
   ```bash
