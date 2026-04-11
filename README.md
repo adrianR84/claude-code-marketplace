@@ -81,6 +81,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install protective-hooks@claude-code-awesome
   ```
 
+### RSS Aggregator
+
+- **Name**: `rss-aggregator`
+- **Description**: RSS feed aggregation and article content extraction — fetch entries and read articles as Markdown
+- **Category**: Productivity
+- **Author**: adrianR84
+- **Repository**: <a href="https://github.com/adrianR84/rss-aggregator" target="_blank">adrianR84/rss-aggregator</a>
+- **Keywords**: rss, feed, aggregator, articles
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install rss-aggregator@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

@@ -62,6 +62,21 @@
       "category": "security",
       "repository": "https://github.com/adrianR84/claude-code-protective-hooks",
       "keywords": ["security", "hooks", "protection", "secrets", "dangerous-commands"]
+    },
+    {
+      "name": "rss-aggregator",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adrianR84/rss-aggregator"
+      },
+      "description": "RSS feed aggregation and article content extraction — fetch entries and read articles as Markdown",
+      "category": "productivity",
+      "repository": "https://github.com/adrianR84/rss-aggregator",
+      "keywords": ["rss", "feed", "aggregator", "articles"],
+      "author": {
+        "name": "adrianR84"
+      },
+      "license": "MIT"
     }
   ]
 }
