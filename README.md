@@ -109,6 +109,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install my-mcps@claude-code-awesome
   ```
 
+### Remember
+
+- **Name**: `remember`
+- **Description**: Continuous memory for Claude Code. Extracts, summarizes, and compresses conversations into tiered daily logs. Claude remembers what you did yesterday.
+- **Category**: Productivity
+- **Author**: Digital Process Tools
+- **Repository**: <a href="https://github.com/Digital-Process-Tools/claude-remember" target="_blank">Digital-Process-Tools/claude-remember</a>
+- **Keywords**: memory, context, persistence, session
+- **License**: Community License
+- **Installation**:
+  ```bash
+  /plugin install remember@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
