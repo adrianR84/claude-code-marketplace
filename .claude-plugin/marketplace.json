@@ -80,7 +80,10 @@
     },
     {
       "name": "my-mcps",
-      "source": "./",
+      "source": {
+        "source": "github",
+        "repo": "adrianR84/claude-code-mcps"
+      },
       "description": "Claude Code plugin providing MCP server integrations for different services",
       "author": {
         "name": "adrianR84"
