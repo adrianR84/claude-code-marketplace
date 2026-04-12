@@ -123,20 +123,6 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install remember@claude-code-awesome
   ```
 
-### Claude Mem
-
-- **Name**: `claude-mem`
-- **Description**: Memory compression system for Claude Code - persist context across sessions
-- **Category**: Productivity
-- **Author**: Alex Newman
-- **Repository**: <a href="https://github.com/thedotmack/claude-mem/tree/main/plugin" target="_blank">thedotmack/claude-mem</a>
-- **Keywords**: memory, compression, knowledge-graph, transcript
-- **License**: AGPL-3.0
-- **Installation**:
-  ```bash
-  /plugin install claude-mem@claude-code-awesome
-  ```
-
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

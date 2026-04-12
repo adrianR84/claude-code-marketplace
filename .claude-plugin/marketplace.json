@@ -107,21 +107,6 @@
       "repository": "https://github.com/Digital-Process-Tools/claude-remember",
       "keywords": ["memory", "context", "persistence", "session"],
       "license": "Community License"
-    },
-    {
-      "name": "claude-mem",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/thedotmack/claude-mem/tree/main/plugin"
-      },
-      "description": "Memory compression system for Claude Code - persist context across sessions",
-      "author": {
-        "name": "Alex Newman"
-      },
-      "category": "productivity",
-      "repository": "https://github.com/thedotmack/claude-mem",
-      "keywords": ["memory", "compression", "knowledge-graph", "transcript"],
-      "license": "AGPL-3.0"
     }
   ]
 }
