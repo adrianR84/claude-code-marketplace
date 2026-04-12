@@ -95,6 +95,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install rss-aggregator@claude-code-awesome
   ```
 
+### My MCPs
+
+- **Name**: `my-mcps`
+- **Description**: Claude Code plugin providing MCP server integrations for different services
+- **Category**: Development
+- **Author**: adrianR84
+- **Repository**: <a href="https://github.com/adrianR84/claude-code-mcps" target="_blank">adrianR84/claude-code-mcps</a>
+- **Keywords**: mcp, composio, dbhub, plugin
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install my-mcps@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

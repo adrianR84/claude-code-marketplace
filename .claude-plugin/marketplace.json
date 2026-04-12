@@ -77,6 +77,18 @@
         "name": "adrianR84"
       },
       "license": "MIT"
+    },
+    {
+      "name": "my-mcps",
+      "source": "./",
+      "description": "Claude Code plugin providing MCP server integrations for different services",
+      "author": {
+        "name": "adrianR84"
+      },
+      "category": "development",
+      "repository": "https://github.com/adrianR84/claude-code-mcps",
+      "keywords": ["mcp", "composio", "dbhub", "plugin"],
+      "license": "MIT"
     }
   ]
 }
