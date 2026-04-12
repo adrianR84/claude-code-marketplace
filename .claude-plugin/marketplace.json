@@ -112,7 +112,7 @@
       "name": "claude-mem",
       "source": {
         "source": "url",
-        "url": "https://github.com/thedotmack/claude-mem"
+        "url": "https://github.com/thedotmack/claude-mem/tree/main/plugin"
       },
       "description": "Memory compression system for Claude Code - persist context across sessions",
       "author": {

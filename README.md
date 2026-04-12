@@ -129,7 +129,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Description**: Memory compression system for Claude Code - persist context across sessions
 - **Category**: Productivity
 - **Author**: Alex Newman
-- **Repository**: <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
+- **Repository**: <a href="https://github.com/thedotmack/claude-mem/tree/main/plugin" target="_blank">thedotmack/claude-mem</a>
 - **Keywords**: memory, compression, knowledge-graph, transcript
 - **License**: AGPL-3.0
 - **Installation**:
