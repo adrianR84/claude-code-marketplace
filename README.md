@@ -109,6 +109,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install my-mcps@claude-code-awesome
   ```
 
+### Andrej Karpathy Skills
+
+- **Name**: `andrej-karpathy-skills`
+- **Description**: Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls
+- **Category**: Productivity
+- **Author**: forrestchang
+- **Repository**: <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
+- **Keywords**: guidelines, best-practices, coding, karpathy
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install andrej-karpathy-skills@claude-code-awesome
+  ```
+
 ### Remember
 
 - **Name**: `remember`

@@ -94,6 +94,21 @@
       "license": "MIT"
     },
     {
+      "name": "andrej-karpathy-skills",
+      "source": {
+        "source": "github",
+        "repo": "forrestchang/andrej-karpathy-skills"
+      },
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes, derived from Andrej Karpathy's observations on LLM coding pitfalls",
+      "category": "productivity",
+      "repository": "https://github.com/forrestchang/andrej-karpathy-skills",
+      "keywords": ["guidelines", "best-practices", "coding", "karpathy"],
+      "author": {
+        "name": "forrestchang"
+      },
+      "license": "MIT"
+    },
+    {
       "name": "remember",
       "source": {
         "source": "github",
