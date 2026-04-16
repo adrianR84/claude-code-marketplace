@@ -137,6 +137,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install remember@claude-code-awesome
   ```
 
+### Minimal Claude
+
+- **Name**: `minimal-claude`
+- **Description**: Intelligent Claude Code plugin that auto-configures linting, typechecking, and parallel agent-based fixing.
+- **Category**: Development
+- **Author**: KenKaiii
+- **Repository**: <a href="https://github.com/KenKaiii/minimal-claude" target="_blank">KenKaiii/minimal-claude</a>
+- **Keywords**: linting, typechecking, fixing, commit, quality, automation
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install minimal-claude@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

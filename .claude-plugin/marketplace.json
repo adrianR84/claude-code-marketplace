@@ -122,6 +122,21 @@
       "repository": "https://github.com/Digital-Process-Tools/claude-remember",
       "keywords": ["memory", "context", "persistence", "session"],
       "license": "Community License"
+    },
+    {
+      "name": "minimal-claude",
+      "source": {
+        "source": "github",
+        "repo": "KenKaiii/minimal-claude"
+      },
+      "description": "Intelligent Claude Code plugin that auto-configures linting, typechecking, and parallel agent-based fixing.",
+      "category": "development",
+      "repository": "https://github.com/KenKaiii/minimal-claude",
+      "keywords": ["linting", "typechecking", "fixing", "commit", "quality", "automation"],
+      "author": {
+        "name": "KenKaiii"
+      },
+      "license": "MIT"
     }
   ]
 }
