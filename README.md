@@ -179,6 +179,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install wiki-skills@claude-code-awesome
   ```
 
+### LLM Wiki Compiler
+
+- **Name**: `llm-wiki-compiler`
+- **Description**: Compiles markdown knowledge files into a topic-based wiki. Implements Karpathy's LLM Knowledge Base pattern.
+- **Category**: Productivity
+- **Author**: Sumant
+- **Repository**: <a href="https://github.com/ussumant/llm-wiki-compiler" target="_blank">ussumant/llm-wiki-compiler</a>
+- **Keywords**: wiki, knowledge, markdown, karpathy, knowledge-base
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install llm-wiki-compiler@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 - **Name**: `micro-skill-pipeline`

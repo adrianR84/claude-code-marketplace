@@ -199,6 +199,22 @@
         "name": "Kenny Chou"
       },
       "license": "MIT"
+    },
+    {
+      "name": "llm-wiki-compiler",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/ussumant/llm-wiki-compiler",
+        "path": "plugin"
+      },
+      "description": "Compiles markdown knowledge files into a topic-based wiki. Implements Karpathy's LLM Knowledge Base pattern.",
+      "category": "productivity",
+      "repository": "https://github.com/ussumant/llm-wiki-compiler",
+      "keywords": ["wiki", "knowledge", "markdown", "karpathy", "knowledge-base"],
+      "author": {
+        "name": "Sumant"
+      },
+      "license": "MIT"
     }
   ]
 }
