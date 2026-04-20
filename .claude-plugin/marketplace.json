@@ -138,6 +138,21 @@
         "name": "stevesolun"
       },
       "license": "MIT"
+    },
+    {
+      "name": "minimal-claude",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/KenKaiii/minimal-claude"
+      },
+      "description": "Intelligent Claude Code plugin that auto-configures linting, typechecking, and parallel agent-based fixing.",
+      "category": "development",
+      "repository": "https://github.com/KenKaiii/minimal-claude",
+      "keywords": ["linting", "typechecking", "fixing", "commit", "quality", "automation"],
+      "author": {
+        "name": "KenKaiii"
+      },
+      "license": "MIT"
     }
   ]
 }
