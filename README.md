@@ -123,6 +123,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install andrej-karpathy-skills@claude-code-awesome
   ```
 
+### Claude Mem
+
+- **Name**: `claude-mem`
+- **Description**: Persistent memory system for Claude Code - context compression across sessions
+- **Category**: Productivity
+- **Author**: Alex Newman
+- **Repository**: <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
+- **Keywords**: memory, persistence, context, session, compression
+- **License**: AGPL-3.0
+- **Installation**:
+  ```bash
+  /plugin install claude-mem@claude-code-awesome
+  ```
+
 ### Remember
 
 - **Name**: `remember`

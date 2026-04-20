@@ -109,6 +109,22 @@
       "license": "MIT"
     },
     {
+      "name": "claude-mem",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/thedotmack/claude-mem",
+        "path": "plugin"
+      },
+      "description": "Persistent memory system for Claude Code - context compression across sessions",
+      "category": "productivity",
+      "repository": "https://github.com/thedotmack/claude-mem",
+      "keywords": ["memory", "persistence", "context", "session", "compression"],
+      "author": {
+        "name": "Alex Newman"
+      },
+      "license": "AGPL-3.0"
+    },
+    {
       "name": "remember",
       "source": {
         "source": "url",
