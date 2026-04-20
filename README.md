@@ -165,7 +165,21 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install remember@claude-code-awesome
   ```
 
-### Micro Skill Pipeline
+### Wiki Skills
+
+- **Name**: `wiki-skills`
+- **Description**: An LLM-maintained personal wiki skills project for Claude Code — implements Karpathy's LLM Wiki pattern with 5 skills: wiki-init, wiki-ingest, wiki-query, wiki-lint, wiki-update.
+- **Category**: Productivity
+- **Author**: Kenny Chou
+- **Repository**: <a href="https://github.com/kfchou/wiki-skills" target="_blank">kfchou/wiki-skills</a>
+- **Keywords**: wiki, knowledge, karpathy, skills, memory
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install wiki-skills@claude-code-awesome
+  ```
+
+## 🔧 Usage
 
 - **Name**: `micro-skill-pipeline`
 - **Description**: Stop writing 200-line skills that Claude skims. Convert any skill into a gated micro-pipeline with hard YES/NO quality checks.
