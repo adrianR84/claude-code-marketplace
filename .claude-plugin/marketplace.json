@@ -156,6 +156,21 @@
       "license": "MIT"
     },
     {
+      "name": "claude-code-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adrianR84/claude-code-skills"
+      },
+      "description": "A collection of skills for Claude Code",
+      "category": "productivity",
+      "repository": "https://github.com/adrianR84/claude-code-skills",
+      "keywords": ["skills"],
+      "author": {
+        "name": "AdrianR84"
+      },
+      "license": "MIT"
+    },
+    {
       "name": "minimal-claude",
       "source": {
         "source": "url",

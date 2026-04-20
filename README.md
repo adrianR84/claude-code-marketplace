@@ -123,6 +123,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install andrej-karpathy-skills@claude-code-awesome
   ```
 
+### Claude Code Skills
+
+- **Name**: `claude-code-skills`
+- **Description**: A collection of skills for Claude Code
+- **Category**: Productivity
+- **Author**: AdrianR84
+- **Repository**: <a href="https://github.com/adrianR84/claude-code-skills" target="_blank">adrianR84/claude-code-skills</a>
+- **Keywords**: skills
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install claude-code-skills@claude-code-awesome
+  ```
+
 ### Claude Mem
 
 - **Name**: `claude-mem`
