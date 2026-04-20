@@ -124,17 +124,17 @@
       "license": "Community License"
     },
     {
-      "name": "minimal-claude",
+      "name": "micro-skills",
       "source": {
         "source": "url",
-        "url": "https://github.com/KenKaiii/minimal-claude"
+        "url": "https://github.com/stevesolun/micro-skills"
       },
-      "description": "Intelligent Claude Code plugin that auto-configures linting, typechecking, and parallel agent-based fixing.",
+      "description": "Stop writing 200-line skills that Claude skims. Convert any skill into a gated micro-pipeline with hard YES/NO quality checks.",
       "category": "development",
-      "repository": "https://github.com/KenKaiii/minimal-claude",
-      "keywords": ["linting", "typechecking", "fixing", "commit", "quality", "automation"],
+      "repository": "https://github.com/stevesolun/micro-skills",
+      "keywords": ["skills", "developer-tools", "code-quality", "ai-agents", "quality-gates", "claude-code", "claude-skills"],
       "author": {
-        "name": "KenKaiii"
+        "name": "stevesolun"
       },
       "license": "MIT"
     }
