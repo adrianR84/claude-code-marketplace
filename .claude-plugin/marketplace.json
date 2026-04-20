@@ -124,15 +124,16 @@
       "license": "Community License"
     },
     {
-      "name": "micro-skills",
+      "name": "micro-skill-pipeline",
       "source": {
-        "source": "url",
-        "url": "https://github.com/stevesolun/micro-skills"
+        "source": "git-subdir",
+        "url": "https://github.com/stevesolun/micro-skills",
+        "path": "micro-skill-pipeline"
       },
       "description": "Stop writing 200-line skills that Claude skims. Convert any skill into a gated micro-pipeline with hard YES/NO quality checks.",
       "category": "development",
       "repository": "https://github.com/stevesolun/micro-skills",
-      "keywords": ["skills", "developer-tools", "code-quality", "ai-agents", "quality-gates", "claude-code", "claude-skills"],
+      "keywords": ["skills", "developer-tools", "code-quality", "ai-agents", "quality-gates", "claude-code", "claude-skills", "micro-skills", "skills-pipeline"],
       "author": {
         "name": "stevesolun"
       },

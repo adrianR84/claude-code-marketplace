@@ -137,18 +137,18 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install remember@claude-code-awesome
   ```
 
-### Micro Skills
+### Micro Skill Pipeline
 
-- **Name**: `micro-skills`
+- **Name**: `micro-skill-pipeline`
 - **Description**: Stop writing 200-line skills that Claude skims. Convert any skill into a gated micro-pipeline with hard YES/NO quality checks.
 - **Category**: Development
 - **Author**: stevesolun
 - **Repository**: <a href="https://github.com/stevesolun/micro-skills" target="_blank">stevesolun/micro-skills</a>
-- **Keywords**: skills, developer-tools, code-quality, ai-agents, quality-gates, claude-code
+- **Keywords**: skills, developer-tools, code-quality, ai-agents, quality-gates, claude-code, claude-skills, micro-skills, skills-pipeline
 - **License**: MIT
 - **Installation**:
   ```bash
-  /plugin install micro-skills@claude-code-awesome
+  /plugin install micro-skill-pipeline@claude-code-awesome
   ```
 
 ### Minimal Claude
