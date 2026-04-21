@@ -231,6 +231,22 @@
         "name": "Nizar Selander"
       },
       "license": "MIT"
+    },
+    {
+      "name": "skill-bus",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/joeymnguyen/skill-bus",
+        "path": "plugin"
+      },
+      "description": "Connect context, conditions, and other skills to any skill — no modification required",
+      "category": "productivity",
+      "repository": "https://github.com/joeymnguyen/skill-bus",
+      "keywords": ["skills", "hooks", "subscriptions", "context"],
+      "author": {
+        "name": "Joey Nguyen"
+      },
+      "license": "MIT"
     }
   ]
 }

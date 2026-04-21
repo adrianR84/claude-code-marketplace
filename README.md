@@ -193,6 +193,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install llm-wiki-compiler@claude-code-awesome
   ```
 
+### Skill Bus
+
+- **Name**: `skill-bus`
+- **Description**: Connect context, conditions, and other skills to any skill — no modification required
+- **Category**: Productivity
+- **Author**: Joey Nguyen
+- **Repository**: <a href="https://github.com/joeymnguyen/skill-bus" target="_blank">joeymnguyen/skill-bus</a>
+- **Keywords**: skills, hooks, subscriptions, context
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install skill-bus@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 - **Name**: `micro-skill-pipeline`
