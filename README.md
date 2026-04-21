@@ -151,6 +151,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-mem@claude-code-awesome
   ```
 
+### Memsearch
+
+- **Name**: `memsearch`
+- **Description**: Automatic semantic memory for Claude Code — remembers what you worked on across sessions
+- **Category**: Productivity
+- **Author**: Zilliz
+- **Repository**: <a href="https://github.com/zilliztech/memsearch" target="_blank">zilliztech/memsearch</a>
+- **Keywords**: memory, semantic-search, milvus, markdown
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install memsearch@claude-code-awesome
+  ```
+
 ### Remember
 
 - **Name**: `remember`

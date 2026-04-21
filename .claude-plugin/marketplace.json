@@ -247,6 +247,22 @@
         "name": "Joey Nguyen"
       },
       "license": "MIT"
+    },
+    {
+      "name": "memsearch",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/zilliztech/memsearch",
+        "path": "plugins/claude-code"
+      },
+      "description": "Automatic semantic memory for Claude Code — remembers what you worked on across sessions",
+      "category": "productivity",
+      "repository": "https://github.com/zilliztech/memsearch",
+      "keywords": ["memory", "semantic-search", "milvus", "markdown"],
+      "author": {
+        "name": "Zilliz"
+      },
+      "license": "MIT"
     }
   ]
 }
