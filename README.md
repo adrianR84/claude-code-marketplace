@@ -221,6 +221,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install minimal-claude@claude-code-awesome
   ```
 
+### TDD Guard
+
+- **Name**: `tdd-guard`
+- **Description**: Automated Test-Driven Development enforcement — blocks implementation without failing tests
+- **Category**: Development
+- **Author**: Nizar Selander
+- **Repository**: <a href="https://github.com/nizos/tdd-guard" target="_blank">nizos/tdd-guard</a>
+- **Keywords**: tdd, hooks, automation, code-quality, claude-code, agentic-coding
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install tdd-guard@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

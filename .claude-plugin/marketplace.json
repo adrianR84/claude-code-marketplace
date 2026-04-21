@@ -215,6 +215,22 @@
         "name": "Sumant"
       },
       "license": "MIT"
+    },
+    {
+      "name": "tdd-guard",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/nizos/tdd-guard",
+        "path": "plugin"
+      },
+      "description": "Automated Test-Driven Development enforcement — blocks implementation without failing tests",
+      "category": "development",
+      "repository": "https://github.com/nizos/tdd-guard",
+      "keywords": ["tdd", "hooks", "automation", "code-quality", "claude-code", "agentic-coding"],
+      "author": {
+        "name": "Nizar Selander"
+      },
+      "license": "MIT"
     }
   ]
 }
