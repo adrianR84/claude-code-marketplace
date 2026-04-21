@@ -207,20 +207,6 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install skill-bus@claude-code-awesome
   ```
 
-## 🔧 Usage
-
-- **Name**: `micro-skill-pipeline`
-- **Description**: Stop writing 200-line skills that Claude skims. Convert any skill into a gated micro-pipeline with hard YES/NO quality checks.
-- **Category**: Development
-- **Author**: stevesolun
-- **Repository**: <a href="https://github.com/stevesolun/micro-skills" target="_blank">stevesolun/micro-skills</a>
-- **Keywords**: skills, developer-tools, code-quality, ai-agents, quality-gates, claude-code, claude-skills, micro-skills, skills-pipeline
-- **License**: MIT
-- **Installation**:
-  ```bash
-  /plugin install micro-skill-pipeline@claude-code-awesome
-  ```
-
 ### Minimal Claude
 
 - **Name**: `minimal-claude`
@@ -247,6 +233,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install tdd-guard@claude-code-awesome
+  ```
+
+### Micro Skill Pipeline
+
+- **Name**: `micro-skill-pipeline`
+- **Description**: Stop writing 200-line skills that Claude skims. Convert any skill into a gated micro-pipeline with hard YES/NO quality checks.
+- **Category**: Development
+- **Author**: stevesolun
+- **Repository**: <a href="https://github.com/stevesolun/micro-skills" target="_blank">stevesolun/micro-skills</a>
+- **Keywords**: skills, developer-tools, code-quality, ai-agents, quality-gates, claude-code, claude-skills, micro-skills, skills-pipeline
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install micro-skill-pipeline@claude-code-awesome
   ```
 
 ## 🔧 Usage
