@@ -319,6 +319,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-ads@claude-code-awesome
   ```
 
+### Claude Obsidian
+
+- **Name**: `claude-obsidian`
+- **Description**: Claude + Obsidian knowledge companion. Persistent, compounding wiki vault based on Karpathy's LLM Wiki pattern. /wiki /save /autoresearch
+- **Category**: Productivity
+- **Author**: AgriciDaniel
+- **Repository**: <a href="https://github.com/AgriciDaniel/claude-obsidian" target="_blank">AgriciDaniel/claude-obsidian</a>
+- **Keywords**: obsidian, second-brain, knowledge-management, wiki
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install claude-obsidian@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

@@ -323,6 +323,21 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT"
+    },
+    {
+      "name": "claude-obsidian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-obsidian"
+      },
+      "description": "Claude + Obsidian knowledge companion. Persistent, compounding wiki vault based on Karpathy's LLM Wiki pattern. /wiki /save /autoresearch",
+      "category": "productivity",
+      "repository": "https://github.com/AgriciDaniel/claude-obsidian",
+      "keywords": ["obsidian", "second-brain", "knowledge-management", "wiki"],
+      "author": {
+        "name": "AgriciDaniel"
+      },
+      "license": "MIT"
     }
   ]
 }
