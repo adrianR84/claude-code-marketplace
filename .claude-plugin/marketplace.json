@@ -338,6 +338,21 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT"
+    },
+    {
+      "name": "claude-prompts",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-prompts"
+      },
+      "description": "AI prompt database and builder skill for Claude Code. 2,500+ curated prompts across 19 categories and 17 AI models.",
+      "category": "productivity",
+      "repository": "https://github.com/AgriciDaniel/claude-prompts",
+      "keywords": ["prompt-engineering", "prompts", "ai"],
+      "author": {
+        "name": "AgriciDaniel"
+      },
+      "license": "MIT"
     }
   ]
 }

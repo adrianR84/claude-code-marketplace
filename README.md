@@ -333,6 +333,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-obsidian@claude-code-awesome
   ```
 
+### Claude Prompts
+
+- **Name**: `claude-prompts`
+- **Description**: AI prompt database and builder skill for Claude Code. 2,500+ curated prompts across 19 categories and 17 AI models.
+- **Category**: Productivity
+- **Author**: AgriciDaniel
+- **Repository**: <a href="https://github.com/AgriciDaniel/claude-prompts" target="_blank">AgriciDaniel/claude-prompts</a>
+- **Keywords**: prompt-engineering, prompts, ai
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install claude-prompts@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
