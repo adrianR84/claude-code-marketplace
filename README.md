@@ -277,6 +277,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install banana-claude@claude-code-awesome
   ```
 
+### Claude SEO
+
+- **Name**: `claude-seo`
+- **Description**: Comprehensive SEO analysis skill for Claude Code. 20 core sub-skills covering technical SEO, E-E-A-T, schema markup, image optimization, GEO/AEO, backlinks, local SEO, maps intelligence, semantic topic clustering, SXO, SEO drift monitoring, e-commerce SEO, international SEO with cultural profiles, Google API integration, and PDF reporting.
+- **Category**: Productivity
+- **Author**: AgriciDaniel
+- **Repository**: <a href="https://github.com/AgriciDaniel/claude-seo" target="_blank">AgriciDaniel/claude-seo</a>
+- **Keywords**: seo, marketing-automation, technical-seo, e-e-a-t, schema, backlinks
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install claude-seo@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

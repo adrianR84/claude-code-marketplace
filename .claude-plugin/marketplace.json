@@ -278,6 +278,21 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT"
+    },
+    {
+      "name": "claude-seo",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-seo"
+      },
+      "description": "Comprehensive SEO analysis skill for Claude Code. 20 core sub-skills covering technical SEO, E-E-A-T, schema markup, image optimization, GEO/AEO, backlinks, local SEO, maps intelligence, semantic topic clustering, SXO, SEO drift monitoring, e-commerce SEO, international SEO with cultural profiles, Google API integration, and PDF reporting.",
+      "category": "productivity",
+      "repository": "https://github.com/AgriciDaniel/claude-seo",
+      "keywords": ["seo", "marketing-automation", "technical-seo", "e-e-a-t", "schema", "backlinks"],
+      "author": {
+        "name": "AgriciDaniel"
+      },
+      "license": "MIT"
     }
   ]
 }
