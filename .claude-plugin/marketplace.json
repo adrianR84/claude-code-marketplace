@@ -293,6 +293,21 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT"
+    },
+    {
+      "name": "claude-ads",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-ads"
+      },
+      "description": "Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.",
+      "category": "productivity",
+      "repository": "https://github.com/AgriciDaniel/claude-ads",
+      "keywords": ["advertising", "marketing-automation", "ai-marketing", "google-ads", "meta-ads"],
+      "author": {
+        "name": "AgriciDaniel"
+      },
+      "license": "MIT"
     }
   ]
 }

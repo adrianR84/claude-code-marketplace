@@ -291,6 +291,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-seo@claude-code-awesome
   ```
 
+### Claude Ads
+
+- **Name**: `claude-ads`
+- **Description**: Comprehensive paid advertising audit & optimization skill for Claude Code. 250+ checks across Google, Meta, YouTube, LinkedIn, TikTok, Microsoft & Apple Ads with weighted scoring, parallel agents, industry templates, and AI creative generation.
+- **Category**: Productivity
+- **Author**: AgriciDaniel
+- **Repository**: <a href="https://github.com/AgriciDaniel/claude-ads" target="_blank">AgriciDaniel/claude-ads</a>
+- **Keywords**: advertising, marketing-automation, ai-marketing, google-ads, meta-ads
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install claude-ads@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
