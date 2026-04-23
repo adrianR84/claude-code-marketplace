@@ -64,6 +64,21 @@
       "keywords": ["security", "hooks", "protection", "secrets", "dangerous-commands"]
     },
     {
+      "name": "claude-cybersecurity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AgriciDaniel/claude-cybersecurity"
+      },
+      "description": "AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.",
+      "category": "security",
+      "repository": "https://github.com/AgriciDaniel/claude-cybersecurity",
+      "keywords": ["cybersecurity", "owasp", "code-review", "devsecops", "vulnerability-scanner", "appsec"],
+      "author": {
+        "name": "AgriciDaniel"
+      },
+      "license": "MIT"
+    },
+    {
       "name": "rss-aggregator",
       "source": {
         "source": "url",

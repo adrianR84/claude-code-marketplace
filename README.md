@@ -81,6 +81,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install protective-hooks@claude-code-awesome
   ```
 
+### Claude Cybersecurity
+
+- **Name**: `claude-cybersecurity`
+- **Description**: AI-powered cybersecurity code review skill for Claude Code. 8 specialist agents, OWASP 2025, CWE Top 25, MITRE ATT&CK, 11 languages, zero configuration.
+- **Category**: Security
+- **Author**: AgriciDaniel
+- **Repository**: <a href="https://github.com/AgriciDaniel/claude-cybersecurity" target="_blank">AgriciDaniel/claude-cybersecurity</a>
+- **Keywords**: cybersecurity, owasp, code-review, devsecops, vulnerability-scanner, appsec
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install claude-cybersecurity@claude-code-awesome
+  ```
+
 ### RSS Aggregator
 
 - **Name**: `rss-aggregator`
