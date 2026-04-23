@@ -263,6 +263,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install micro-skill-pipeline@claude-code-awesome
   ```
 
+### Banana Claude
+
+- **Name**: `banana-claude`
+- **Description**: AI image generation Creative Director powered by Google Gemini Nano Banana models. Claude interprets intent, selects domain expertise, constructs optimized prompts, and orchestrates Gemini for best results.
+- **Category**: Productivity
+- **Author**: AgriciDaniel
+- **Repository**: <a href="https://github.com/AgriciDaniel/banana-claude" target="_blank">AgriciDaniel/banana-claude</a>
+- **Keywords**: image-generation, ai-art, gemini, creative-director
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install banana-claude@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
