@@ -353,6 +353,24 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT"
+    },
+    {
+      "name": "atlas",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/pacifio/ui",
+        "path": "."
+      },
+      "description": "Atlas design language skill. 180+ tokens, 50+ .atlas-* component classes, ~8 markdown reference docs (tokens, components, theming, patterns, responsive, motion, lessons, examples). Teaches coding agents the Atlas aesthetic, vocabulary, and composition recipes — they generate code in your target stack.",
+      "version": "0.2.0",
+      "category": "design",
+      "repository": "https://github.com/pacifio/ui",
+      "keywords": ["design-system", "ui", "css", "tokens", "components", "dark-theme", "amoled", "agent-ui", "ai", "shadcn", "tailwind"],
+      "author": {
+        "name": "pacifio",
+        "url": "https://github.com/pacifio"
+      },
+      "license": "MIT"
     }
   ]
 }

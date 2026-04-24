@@ -347,6 +347,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-prompts@claude-code-awesome
   ```
 
+### Atlas
+
+- **Name**: `atlas`
+- **Description**: Atlas design language skill. 180+ tokens, 50+ .atlas-* component classes, ~8 markdown reference docs. Teaches coding agents the Atlas aesthetic, vocabulary, and composition recipes — they generate code in your target stack.
+- **Category**: Design
+- **Author**: pacifio
+- **Repository**: <a href="https://github.com/pacifio/ui" target="_blank">pacifio/ui</a>
+- **Keywords**: design-system, ui, css, tokens, components, dark-theme, amoled, agent-ui, ai, shadcn, tailwind
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install atlas@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
