@@ -347,6 +347,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-prompts@claude-code-awesome
   ```
 
+### Prompt Mini
+
+- **Name**: `prompt-mini`
+- **Description**: Forges weak Claude Code prompts into structured, credit-saving, framework-aware prompts.
+- **Category**: Productivity
+- **Author**: nidhinjs
+- **Repository**: <a href="https://github.com/nidhinjs/prompt-mini" target="_blank">nidhinjs/prompt-mini</a>
+- **Keywords**: prompts, claude-code, hooks, developer-tools
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install prompt-mini@claude-code-awesome
+  ```
+
 ### Atlas
 
 - **Name**: `atlas`
