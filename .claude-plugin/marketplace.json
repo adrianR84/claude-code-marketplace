@@ -357,9 +357,8 @@
     {
       "name": "atlas",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/pacifio/ui",
-        "path": "."
+        "source": "url",
+        "url": "https://github.com/pacifio/ui"
       },
       "description": "Atlas design language skill. 180+ tokens, 50+ .atlas-* component classes, ~8 markdown reference docs (tokens, components, theming, patterns, responsive, motion, lessons, examples). Teaches coding agents the Atlas aesthetic, vocabulary, and composition recipes — they generate code in your target stack.",
       "version": "0.2.0",
