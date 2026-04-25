@@ -390,9 +390,8 @@
     {
       "name": "obsidian",
       "source": {
-        "source": "git-subdir",
-        "url": "https://github.com/kepano/obsidian-skills",
-        "path": "./"
+        "source": "url",
+        "url": "https://github.com/kepano/obsidian-skills"
       },
       "description": "Claude Skills for Obsidian — enables agents to work with Markdown, Bases, JSON Canvas, and the CLI.",
       "category": "productivity",
