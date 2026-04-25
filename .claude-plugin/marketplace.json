@@ -386,6 +386,22 @@
         "name": "nidhinjs"
       },
       "license": "MIT"
+    },
+    {
+      "name": "obsidian",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/kepano/obsidian-skills",
+        "path": "."
+      },
+      "description": "Claude Skills for Obsidian — enables agents to work with Markdown, Bases, JSON Canvas, and the CLI.",
+      "category": "productivity",
+      "repository": "https://github.com/kepano/obsidian-skills",
+      "keywords": ["cli", "skills", "obsidian", "codex", "claude"],
+      "author": {
+        "name": "Steph Ango"
+      },
+      "license": "MIT"
     }
   ]
 }

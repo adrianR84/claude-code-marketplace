@@ -361,6 +361,20 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install prompt-mini@claude-code-awesome
   ```
 
+### Obsidian
+
+- **Name**: `obsidian`
+- **Description**: Claude Skills for Obsidian — enables agents to work with Markdown, Bases, JSON Canvas, and the CLI.
+- **Category**: Productivity
+- **Author**: Steph Ango
+- **Repository**: <a href="https://github.com/kepano/obsidian-skills" target="_blank">kepano/obsidian-skills</a>
+- **Keywords**: cli, skills, obsidian, codex, claude
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install obsidian@claude-code-awesome
+  ```
+
 ### Atlas
 
 - **Name**: `atlas`
