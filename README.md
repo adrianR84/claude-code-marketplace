@@ -412,6 +412,21 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install atlas@claude-code-awesome
   ```
 
+### Beads
+
+- **Name**: `beads`
+- **Description**: AI-supervised issue tracker for coding workflows. Distributed graph issue tracker for AI agents, powered by Dolt.
+- **Category**: Development
+- **Author**: Steve Yegge
+- **Repository**: <a href="https://github.com/gastownhall/beads" target="_blank">gastownhall/beads</a>
+- **Keywords**: coding, agents, claude-code
+- **License**: MIT
+- **Version**: 1.0.3
+- **Installation**:
+  ```bash
+  /plugin install beads@claude-code-awesome
+  ```
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.

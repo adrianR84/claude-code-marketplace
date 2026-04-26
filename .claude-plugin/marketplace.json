@@ -434,6 +434,23 @@
         "name": "Steph Ango"
       },
       "license": "MIT"
+    },
+    {
+      "name": "beads",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/gastownhall/beads",
+        "path": "claude-plugin"
+      },
+      "description": "AI-supervised issue tracker for coding workflows. Distributed graph issue tracker for AI agents, powered by Dolt.",
+      "category": "development",
+      "repository": "https://github.com/gastownhall/beads",
+      "keywords": ["coding", "agents", "claude-code"],
+      "author": {
+        "name": "Steve Yegge"
+      },
+      "license": "MIT",
+      "version": "1.0.3"
     }
   ]
 }
