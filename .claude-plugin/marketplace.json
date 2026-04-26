@@ -17,7 +17,8 @@
       "keywords": ["telegram", "notifications", "hooks"],
       "author": {
         "name": "AdrianR84"
-      }
+      },
+      "version": "1.0.0"
     },
     {
       "name": "toast-notifications",
@@ -28,7 +29,11 @@
       "description": "Windows toast notifications for Claude Code events using native Windows APIs.",
       "category": "development",
       "repository": "https://github.com/TianqiZhang/claude-code-toast",
-      "keywords": ["windows toast", "notifications"]
+      "keywords": ["windows toast", "notifications"],
+      "author": {
+        "name": "TianqiZhang"
+      },
+      "version": "1.0.0"
     },
     {
       "name": "browserless",
@@ -39,7 +44,10 @@
       "description": "Browser automation and web scraping capabilities for Claude Code.",
       "category": "development",
       "repository": "https://github.com/adrianR84/browserless-claude-plugin",
-      "keywords": ["browser automation", "web scraping"]
+      "keywords": ["browser automation", "web scraping"],
+      "author": {
+        "name": "adrianR84"
+      }
     },
     {
       "name": "greeting",
@@ -50,7 +58,11 @@
       "description": "A customizable greeting plugin for Claude Code that demonstrates user-configurable settings",
       "category": "development",
       "repository": "https://github.com/adrianR84/claude-code-greeting",
-      "keywords": ["greeting"]
+      "keywords": ["greeting"],
+      "author": {
+        "name": "adrianR84"
+      },
+      "version": "1.0.0"
     },
     {
       "name": "protective-hooks",
@@ -61,7 +73,10 @@
       "description": "Security hooks for Claude Code",
       "category": "security",
       "repository": "https://github.com/adrianR84/claude-code-protective-hooks",
-      "keywords": ["security", "hooks", "protection", "secrets", "dangerous-commands"]
+      "keywords": ["security", "hooks", "protection", "secrets", "dangerous-commands"],
+      "author": {
+        "name": "adrianR84"
+      }
     },
     {
       "name": "claude-cybersecurity",
@@ -76,7 +91,8 @@
       "author": {
         "name": "AgriciDaniel"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.0"
     },
     {
       "name": "rss-aggregator",
@@ -91,7 +107,8 @@
       "author": {
         "name": "adrianR84"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.0"
     },
     {
       "name": "my-mcps",
@@ -106,6 +123,9 @@
       "category": "development",
       "repository": "https://github.com/adrianR84/claude-code-mcps",
       "keywords": ["mcp", "composio", "dbhub", "plugin"],
+      "author": {
+        "name": "adrianR84"
+      },
       "license": "MIT"
     },
     {
@@ -121,7 +141,8 @@
       "author": {
         "name": "forrestchang"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.0"
     },
     {
       "name": "claude-mem",
@@ -137,7 +158,8 @@
       "author": {
         "name": "Alex Newman"
       },
-      "license": "AGPL-3.0"
+      "license": "AGPL-3.0",
+      "version": "12.4.7"
     },
     {
       "name": "remember",
@@ -152,7 +174,8 @@
       "category": "productivity",
       "repository": "https://github.com/Digital-Process-Tools/claude-remember",
       "keywords": ["memory", "context", "persistence", "session"],
-      "license": "Community License"
+      "license": "Community License",
+      "version": "0.6.0"
     },
     {
       "name": "micro-skill-pipeline",
@@ -168,7 +191,8 @@
       "author": {
         "name": "stevesolun"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.0"
     },
     {
       "name": "claude-code-skills",
@@ -198,7 +222,8 @@
       "author": {
         "name": "KenKaiii"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.6.1"
     },
     {
       "name": "wiki-skills",
@@ -213,7 +238,8 @@
       "author": {
         "name": "Kenny Chou"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.0"
     },
     {
       "name": "llm-wiki-compiler",
@@ -229,7 +255,8 @@
       "author": {
         "name": "Sumant"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "2.0"
     },
     {
       "name": "tdd-guard",
@@ -245,7 +272,8 @@
       "author": {
         "name": "Nizar Selander"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.4.1"
     },
     {
       "name": "skill-bus",
@@ -261,7 +289,8 @@
       "author": {
         "name": "Joey Nguyen"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "0.7.0"
     },
     {
       "name": "memsearch",
@@ -277,7 +306,8 @@
       "author": {
         "name": "Zilliz"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "0.3.6"
     },
     {
       "name": "banana-claude",
@@ -307,7 +337,8 @@
       "author": {
         "name": "AgriciDaniel"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.9.0"
     },
     {
       "name": "claude-ads",
@@ -322,7 +353,8 @@
       "author": {
         "name": "AgriciDaniel"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.5.1"
     },
     {
       "name": "claude-obsidian",
@@ -337,7 +369,8 @@
       "author": {
         "name": "AgriciDaniel"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.6.0"
     },
     {
       "name": "claude-prompts",
@@ -384,7 +417,8 @@
       "author": {
         "name": "nidhinjs"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "0.1.0"
     },
     {
       "name": "obsidian",

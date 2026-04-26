@@ -28,6 +28,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Author**: AdrianR84
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-telegram-notifications" target="_blank">adrianR84/claude-code-telegram-notifications</a>
 - **Keywords**: telegram, notifications, hooks
+- **License**: MIT
 - **Installation**:
   ```bash
   /plugin install telegram-notifications@claude-code-awesome
@@ -40,6 +41,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Category**: Development
 - **Repository**: <a href="https://github.com/TianqiZhang/claude-code-toast" target="_blank">TianqiZhang/claude-code-toast</a>
 - **Keywords**: windows toast, notifications
+- **License**: MIT
 - **Installation**:
   ```bash
   /plugin install toast-notifications@claude-code-awesome
@@ -52,6 +54,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Category**: Development
 - **Repository**: <a href="https://github.com/adrianR84/browserless-claude-plugin" target="_blank">adrianR84/browserless-claude-plugin</a>
 - **Keywords**: browser automation, web scraping
+- **License**: MIT
 - **Installation**:
   ```bash
   /plugin install browserless@claude-code-awesome
@@ -64,6 +67,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Category**: Development
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-greeting" target="_blank">adrianR84/claude-code-greeting</a>
 - **Keywords**: greeting
+- **License**: MIT
 - **Installation**:
   ```bash
   /plugin install greeting@claude-code-awesome
@@ -76,6 +80,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Category**: Security
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-protective-hooks" target="_blank">adrianR84/claude-code-protective-hooks</a>
 - **Keywords**: security, hooks, protection, secrets, dangerous-commands
+- **License**: MIT
 - **Installation**:
   ```bash
   /plugin install protective-hooks@claude-code-awesome
@@ -90,6 +95,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-cybersecurity" target="_blank">AgriciDaniel/claude-cybersecurity</a>
 - **Keywords**: cybersecurity, owasp, code-review, devsecops, vulnerability-scanner, appsec
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install claude-cybersecurity@claude-code-awesome
@@ -118,6 +124,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-mcps" target="_blank">adrianR84/claude-code-mcps</a>
 - **Keywords**: mcp, composio, dbhub, plugin
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install my-mcps@claude-code-awesome
@@ -132,6 +139,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/forrestchang/andrej-karpathy-skills" target="_blank">forrestchang/andrej-karpathy-skills</a>
 - **Keywords**: guidelines, best-practices, coding, karpathy
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install andrej-karpathy-skills@claude-code-awesome
@@ -160,6 +168,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
 - **Keywords**: memory, persistence, context, session, compression
 - **License**: AGPL-3.0
+- **Version**: 12.4.7
 - **Installation**:
   ```bash
   /plugin install claude-mem@claude-code-awesome
@@ -174,6 +183,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/zilliztech/memsearch" target="_blank">zilliztech/memsearch</a>
 - **Keywords**: memory, semantic-search, milvus, markdown
 - **License**: MIT
+- **Version**: 0.3.6
 - **Installation**:
   ```bash
   /plugin install memsearch@claude-code-awesome
@@ -188,6 +198,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/Digital-Process-Tools/claude-remember" target="_blank">Digital-Process-Tools/claude-remember</a>
 - **Keywords**: memory, context, persistence, session
 - **License**: Community License
+- **Version**: 0.6.0
 - **Installation**:
   ```bash
   /plugin install remember@claude-code-awesome
@@ -202,6 +213,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/kfchou/wiki-skills" target="_blank">kfchou/wiki-skills</a>
 - **Keywords**: wiki, knowledge, karpathy, skills, memory
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install wiki-skills@claude-code-awesome
@@ -216,6 +228,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/ussumant/llm-wiki-compiler" target="_blank">ussumant/llm-wiki-compiler</a>
 - **Keywords**: wiki, knowledge, markdown, karpathy, knowledge-base
 - **License**: MIT
+- **Version**: 2.0
 - **Installation**:
   ```bash
   /plugin install llm-wiki-compiler@claude-code-awesome
@@ -230,6 +243,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/joeymnguyen/skill-bus" target="_blank">joeymnguyen/skill-bus</a>
 - **Keywords**: skills, hooks, subscriptions, context
 - **License**: MIT
+- **Version**: 0.7.0
 - **Installation**:
   ```bash
   /plugin install skill-bus@claude-code-awesome
@@ -244,6 +258,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/KenKaiii/minimal-claude" target="_blank">KenKaiii/minimal-claude</a>
 - **Keywords**: linting, typechecking, fixing, commit, quality, automation
 - **License**: MIT
+- **Version**: 1.6.1
 - **Installation**:
   ```bash
   /plugin install minimal-claude@claude-code-awesome
@@ -258,6 +273,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/nizos/tdd-guard" target="_blank">nizos/tdd-guard</a>
 - **Keywords**: tdd, hooks, automation, code-quality, claude-code, agentic-coding
 - **License**: MIT
+- **Version**: 1.4.1
 - **Installation**:
   ```bash
   /plugin install tdd-guard@claude-code-awesome
@@ -272,6 +288,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/stevesolun/micro-skills" target="_blank">stevesolun/micro-skills</a>
 - **Keywords**: skills, developer-tools, code-quality, ai-agents, quality-gates, claude-code, claude-skills, micro-skills, skills-pipeline
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install micro-skill-pipeline@claude-code-awesome
@@ -300,6 +317,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-seo" target="_blank">AgriciDaniel/claude-seo</a>
 - **Keywords**: seo, marketing-automation, technical-seo, e-e-a-t, schema, backlinks
 - **License**: MIT
+- **Version**: 1.9.0
 - **Installation**:
   ```bash
   /plugin install claude-seo@claude-code-awesome
@@ -314,6 +332,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-ads" target="_blank">AgriciDaniel/claude-ads</a>
 - **Keywords**: advertising, marketing-automation, ai-marketing, google-ads, meta-ads
 - **License**: MIT
+- **Version**: 1.5.1
 - **Installation**:
   ```bash
   /plugin install claude-ads@claude-code-awesome
@@ -328,6 +347,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-obsidian" target="_blank">AgriciDaniel/claude-obsidian</a>
 - **Keywords**: obsidian, second-brain, knowledge-management, wiki
 - **License**: MIT
+- **Version**: 1.6.0
 - **Installation**:
   ```bash
   /plugin install claude-obsidian@claude-code-awesome
@@ -356,6 +376,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/nidhinjs/prompt-mini" target="_blank">nidhinjs/prompt-mini</a>
 - **Keywords**: prompts, claude-code, hooks, developer-tools
 - **License**: MIT
+- **Version**: 0.1.0
 - **Installation**:
   ```bash
   /plugin install prompt-mini@claude-code-awesome
@@ -370,6 +391,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/kepano/obsidian-skills" target="_blank">kepano/obsidian-skills</a>
 - **Keywords**: cli, skills, obsidian, codex, claude
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install obsidian@claude-code-awesome
@@ -384,6 +406,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/pacifio/ui" target="_blank">pacifio/ui</a>
 - **Keywords**: design-system, ui, css, tokens, components, dark-theme, amoled, agent-ui, ai, shadcn, tailwind
 - **License**: MIT
+- **Version**: 0.2.0
 - **Installation**:
   ```bash
   /plugin install atlas@claude-code-awesome
