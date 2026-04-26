@@ -20,36 +20,36 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 
 ## 🚀 Available Plugins
 
-| Plugin | Description |
-|--------|-------------|
-| [telegram-notifications](#telegram-notifications) | Telegram notifications for Claude Code events |
-| [toast-notifications](#toast-notifications) | Windows toast notifications for Claude Code events |
-| [browserless](#browserless) | Browser automation and web scraping capabilities |
-| [greeting](#greeting) | A customizable greeting plugin |
-| [protective-hooks](#protective-hooks) | Security hooks for Claude Code |
-| [claude-cybersecurity](#claude-cybersecurity) | AI-powered cybersecurity code review skill |
-| [rss-aggregator](#rss-aggregator) | RSS feed aggregation and article extraction |
-| [my-mcps](#my-mcps) | MCP server integrations |
-| [andrej-karpathy-skills](#andrej-karpathy-skills) | Behavioral guidelines to reduce LLM coding mistakes |
-| [claude-code-skills](#claude-code-skills) | A collection of skills for Claude Code |
-| [claude-mem](#claude-mem) | Persistent memory system for Claude Code |
-| [memsearch](#memsearch) | Automatic semantic memory for Claude Code |
-| [remember](#remember) | Continuous memory for Claude Code |
-| [wiki-skills](#wiki-skills) | LLM-maintained personal wiki skills |
-| [llm-wiki-compiler](#llm-wiki-compiler) | Compiles markdown into topic-based wiki |
-| [skill-bus](#skill-bus) | Connect context, conditions, and skills |
-| [minimal-claude](#minimal-claude) | Auto-configures linting, typechecking, and fixing |
-| [tdd-guard](#tdd-guard) | Test-Driven Development enforcement |
-| [micro-skill-pipeline](#micro-skill-pipeline) | Gated micro-pipeline for quality checks |
-| [banana-claude](#banana-claude) | AI image generation Creative Director |
-| [claude-seo](#claude-seo) | Comprehensive SEO analysis skill |
-| [claude-ads](#claude-ads) | Paid advertising audit & optimization |
-| [claude-obsidian](#claude-obsidian) | Claude + Obsidian knowledge companion |
-| [claude-prompts](#claude-prompts) | AI prompt database and builder |
-| [prompt-mini](#prompt-mini) | Forges weak prompts into structured prompts |
-| [obsidian](#obsidian) | Claude Skills for Obsidian |
-| [atlas](#atlas) | Atlas design language skill |
-| [beads](#beads) | Distributed graph issue tracker for AI agents |
+| Plugin | Author | Description |
+|--------|--------|-------------|
+| [telegram-notifications](#telegram-notifications) | AdrianR84 | Telegram notifications for Claude Code events |
+| [toast-notifications](#toast-notifications) | TianqiZhang | Windows toast notifications for Claude Code events |
+| [browserless](#browserless) | adrianR84 | Browser automation and web scraping capabilities |
+| [greeting](#greeting) | adrianR84 | A customizable greeting plugin |
+| [protective-hooks](#protective-hooks) | adrianR84 | Security hooks for Claude Code |
+| [claude-cybersecurity](#claude-cybersecurity) | AgriciDaniel | AI-powered cybersecurity code review skill |
+| [rss-aggregator](#rss-aggregator) | adrianR84 | RSS feed aggregation and article extraction |
+| [my-mcps](#my-mcps) | adrianR84 | MCP server integrations |
+| [andrej-karpathy-skills](#andrej-karpathy-skills) | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
+| [claude-code-skills](#claude-code-skills) | AdrianR84 | A collection of skills for Claude Code |
+| [claude-mem](#claude-mem) | Alex Newman | Persistent memory system for Claude Code |
+| [memsearch](#memsearch) | Zilliz | Automatic semantic memory for Claude Code |
+| [remember](#remember) | Digital Process Tools | Continuous memory for Claude Code |
+| [wiki-skills](#wiki-skills) | Kenny Chou | LLM-maintained personal wiki skills |
+| [llm-wiki-compiler](#llm-wiki-compiler) | Sumant | Compiles markdown into topic-based wiki |
+| [skill-bus](#skill-bus) | Joey Nguyen | Connect context, conditions, and skills |
+| [minimal-claude](#minimal-claude) | KenKaiii | Auto-configures linting, typechecking, and fixing |
+| [tdd-guard](#tdd-guard) | Nizar Selander | Test-Driven Development enforcement |
+| [micro-skill-pipeline](#micro-skill-pipeline) | stevesolun | Gated micro-pipeline for quality checks |
+| [banana-claude](#banana-claude) | AgriciDaniel | AI image generation Creative Director |
+| [claude-seo](#claude-seo) | AgriciDaniel | Comprehensive SEO analysis skill |
+| [claude-ads](#claude-ads) | AgriciDaniel | Paid advertising audit & optimization |
+| [claude-obsidian](#claude-obsidian) | AgriciDaniel | Claude + Obsidian knowledge companion |
+| [claude-prompts](#claude-prompts) | AgriciDaniel | AI prompt database and builder |
+| [prompt-mini](#prompt-mini) | nidhinjs | Forges weak prompts into structured prompts |
+| [obsidian](#obsidian) | Steph Ango | Claude Skills for Obsidian |
+| [atlas](#atlas) | pacifio | Atlas design language skill |
+| [beads](#beads) | Steve Yegge | Distributed graph issue tracker for AI agents |
 
 ### Telegram Notifications
 
