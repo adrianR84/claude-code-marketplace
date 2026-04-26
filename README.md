@@ -512,6 +512,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install beads@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ## 🔧 Usage
 
 Once installed, plugins will be available in your Claude Code environment. Refer to individual plugin documentation for specific usage instructions.
