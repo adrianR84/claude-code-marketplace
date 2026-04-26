@@ -65,6 +65,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install telegram-notifications@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Toast Notifications
 
 - **Name**: `toast-notifications`
@@ -77,6 +79,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install toast-notifications@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Browserless
 
@@ -91,6 +95,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install browserless@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Greeting
 
 - **Name**: `greeting`
@@ -104,6 +110,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install greeting@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Protective Hooks
 
 - **Name**: `protective-hooks`
@@ -116,6 +124,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install protective-hooks@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Claude Cybersecurity
 
@@ -132,6 +142,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-cybersecurity@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### RSS Aggregator
 
 - **Name**: `rss-aggregator`
@@ -145,6 +157,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install rss-aggregator@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### My MCPs
 
@@ -161,6 +175,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install my-mcps@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Andrej Karpathy Skills
 
 - **Name**: `andrej-karpathy-skills`
@@ -176,6 +192,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install andrej-karpathy-skills@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Claude Code Skills
 
 - **Name**: `claude-code-skills`
@@ -189,6 +207,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install claude-code-skills@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Claude Mem
 
@@ -205,6 +225,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-mem@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Memsearch
 
 - **Name**: `memsearch`
@@ -219,6 +241,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install memsearch@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Remember
 
@@ -235,6 +259,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install remember@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Wiki Skills
 
 - **Name**: `wiki-skills`
@@ -249,6 +275,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install wiki-skills@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### LLM Wiki Compiler
 
@@ -265,6 +293,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install llm-wiki-compiler@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Skill Bus
 
 - **Name**: `skill-bus`
@@ -279,6 +309,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install skill-bus@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Minimal Claude
 
@@ -295,6 +327,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install minimal-claude@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### TDD Guard
 
 - **Name**: `tdd-guard`
@@ -309,6 +343,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install tdd-guard@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Micro Skill Pipeline
 
@@ -325,6 +361,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install micro-skill-pipeline@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Banana Claude
 
 - **Name**: `banana-claude`
@@ -338,6 +376,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install banana-claude@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Claude SEO
 
@@ -354,6 +394,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-seo@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Claude Ads
 
 - **Name**: `claude-ads`
@@ -368,6 +410,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install claude-ads@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Claude Obsidian
 
@@ -384,6 +428,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install claude-obsidian@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Claude Prompts
 
 - **Name**: `claude-prompts`
@@ -397,6 +443,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install claude-prompts@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Prompt Mini
 
@@ -413,6 +461,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install prompt-mini@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Obsidian
 
 - **Name**: `obsidian`
@@ -428,6 +478,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   /plugin install obsidian@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 ### Atlas
 
 - **Name**: `atlas`
@@ -442,6 +494,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
   ```bash
   /plugin install atlas@claude-code-awesome
   ```
+
+[← Back to Available Plugins](#-available-plugins)
 
 ### Beads
 
