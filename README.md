@@ -20,6 +20,37 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 
 ## 🚀 Available Plugins
 
+| Plugin | Description |
+|--------|-------------|
+| [telegram-notifications](#telegram-notifications) | Telegram notifications for Claude Code events |
+| [toast-notifications](#toast-notifications) | Windows toast notifications for Claude Code events |
+| [browserless](#browserless) | Browser automation and web scraping capabilities |
+| [greeting](#greeting) | A customizable greeting plugin |
+| [protective-hooks](#protective-hooks) | Security hooks for Claude Code |
+| [claude-cybersecurity](#claude-cybersecurity) | AI-powered cybersecurity code review skill |
+| [rss-aggregator](#rss-aggregator) | RSS feed aggregation and article extraction |
+| [my-mcps](#my-mcps) | MCP server integrations |
+| [andrej-karpathy-skills](#andrej-karpathy-skills) | Behavioral guidelines to reduce LLM coding mistakes |
+| [claude-code-skills](#claude-code-skills) | A collection of skills for Claude Code |
+| [claude-mem](#claude-mem) | Persistent memory system for Claude Code |
+| [memsearch](#memsearch) | Automatic semantic memory for Claude Code |
+| [remember](#remember) | Continuous memory for Claude Code |
+| [wiki-skills](#wiki-skills) | LLM-maintained personal wiki skills |
+| [llm-wiki-compiler](#llm-wiki-compiler) | Compiles markdown into topic-based wiki |
+| [skill-bus](#skill-bus) | Connect context, conditions, and skills |
+| [minimal-claude](#minimal-claude) | Auto-configures linting, typechecking, and fixing |
+| [tdd-guard](#tdd-guard) | Test-Driven Development enforcement |
+| [micro-skill-pipeline](#micro-skill-pipeline) | Gated micro-pipeline for quality checks |
+| [banana-claude](#banana-claude) | AI image generation Creative Director |
+| [claude-seo](#claude-seo) | Comprehensive SEO analysis skill |
+| [claude-ads](#claude-ads) | Paid advertising audit & optimization |
+| [claude-obsidian](#claude-obsidian) | Claude + Obsidian knowledge companion |
+| [claude-prompts](#claude-prompts) | AI prompt database and builder |
+| [prompt-mini](#prompt-mini) | Forges weak prompts into structured prompts |
+| [obsidian](#obsidian) | Claude Skills for Obsidian |
+| [atlas](#atlas) | Atlas design language skill |
+| [beads](#beads) | Distributed graph issue tracker for AI agents |
+
 ### Telegram Notifications
 
 - **Name**: `telegram-notifications`
