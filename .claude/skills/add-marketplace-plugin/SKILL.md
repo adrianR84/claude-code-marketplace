@@ -158,6 +158,8 @@ Read `README.md`, then for each plugin, add a new section at the end of its cate
   /plugin install {plugin-name}@claude-code-awesome
   ```
 
+[← Back to Available Plugins](#-available-plugins)
+
 Add the plugin to the table at the top of `## 🚀 Available Plugins` section, after the last entry. Insert a new row:
 ```
 | [{plugin-name}](#{plugin-name}) | {author} | {short-description} |
