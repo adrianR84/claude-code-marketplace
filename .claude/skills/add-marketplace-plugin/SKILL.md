@@ -157,9 +157,15 @@ Read `README.md`, then for each plugin, add a new section at the end of its cate
   ```bash
   /plugin install {plugin-name}@claude-code-awesome
   ```
+
+Add the plugin to the table at the top of `## 🚀 Available Plugins` section, after the last entry. Insert a new row:
+```
+| [{plugin-name}](#{plugin-name}) | {author} | {short-description} |
+```
+The short-description should be a brief (under 80 characters) version of the full description, suitable for the table.
 ```
 
-Insert at the end of the category section, before `## 🔧 Usage`.
+Insert the section at the end of the appropriate category section (before `## 🔧 Usage`), and also add a row to the plugin table at the top of `## 🚀 Available Plugins`.
 
 ### Step 8: Ask or Confirm Before Committing
 
