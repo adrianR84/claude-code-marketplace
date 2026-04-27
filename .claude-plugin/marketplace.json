@@ -603,6 +603,22 @@
       },
       "license": "MIT",
       "version": "3.15.0"
+    },
+    {
+      "name": "design-extract",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Manavarya09/design-extract"
+      },
+      "description": "Extract the complete design language from any website — colors, typography, spacing, shadows, components, and more. Outputs AI-optimized markdown, W3C design tokens, Tailwind config, and CSS variables.",
+      "category": "design",
+      "repository": "https://github.com/Manavarya09/design-extract",
+      "keywords": ["design-system", "design-tokens", "css", "tailwind", "typography", "colors", "web-scraping"],
+      "author": {
+        "name": "Manavarya Singh"
+      },
+      "license": "MIT",
+      "version": "1.0.0"
     }
   ]
 }

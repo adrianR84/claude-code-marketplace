@@ -59,6 +59,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [waza-read](#waza-read) | Tw93 | Fetches URLs/PDFs as clean Markdown |
 | [waza-write](#waza-write) | Tw93 | Strips AI writing patterns, sounds natural |
 | [waza-learn](#waza-learn) | Tw93 | Six-phase research workflow |
+| [design-extract](#design-extract) | Manavarya Singh | Extract design language from any website |
 
 ### Telegram Notifications
 
@@ -672,6 +673,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install waza-learn@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Design Extract
+
+- **Name**: `design-extract`
+- **Description**: Extract the complete design language from any website — colors, typography, spacing, shadows, components, and more. Outputs AI-optimized markdown, W3C design tokens, Tailwind config, and CSS variables.
+- **Category**: Design
+- **Author**: Manavarya Singh
+- **Repository**: <a href="https://github.com/Manavarya09/design-extract" target="_blank">Manavarya09/design-extract</a>
+- **Keywords**: design-system, design-tokens, css, tailwind, typography, colors, web-scraping
+- **License**: MIT
+- **Version**: 1.0.0
+- **Installation**:
+  ```bash
+  /plugin install design-extract@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
