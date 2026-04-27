@@ -60,6 +60,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [waza-write](#waza-write) | Tw93 | Strips AI writing patterns, sounds natural |
 | [waza-learn](#waza-learn) | Tw93 | Six-phase research workflow |
 | [design-extract](#design-extract) | Manavarya Singh | Extract design language from any website |
+| [claude-flow](#claude-flow) | rUv | Enterprise AI agent orchestration |
 
 ### Telegram Notifications
 
@@ -690,6 +691,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install design-extract@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Claude Flow
+
+- **Name**: `claude-flow`
+- **Description**: Enterprise AI agent orchestration plugin with 150+ commands, 74+ specialized agents, SPARC methodology, swarm coordination, GitHub integration, and neural training capabilities.
+- **Category**: Development
+- **Author**: rUv
+- **Repository**: <a href="https://github.com/ruvnet/claude-flow" target="_blank">ruvnet/claude-flow</a>
+- **Keywords**: ai-agents, swarm-intelligence, orchestration, sparc-methodology, github-automation, neural-training, mcp-integration, enterprise, workflow-automation, multi-agent
+- **License**: MIT
+- **Version**: 2.5.0
+- **Installation**:
+  ```bash
+  /plugin install claude-flow@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
