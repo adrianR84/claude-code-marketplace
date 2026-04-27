@@ -467,6 +467,142 @@
       },
       "license": "MIT",
       "version": "0.1.1"
+    },
+    {
+      "name": "waza-health",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/health"
+      },
+      "description": "Audits the full six-layer Claude Code config stack when Claude ignores instructions, behaves inconsistently, hooks malfunction, or MCP servers need auditing. Flags issues by severity.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["config", "auditing", "hooks", "mcp", "debugging"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.16.0"
+    },
+    {
+      "name": "waza-think",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/think"
+      },
+      "description": "Turns rough ideas into approved plans with validated structure before writing code. Covers new features, architecture decisions, and value judgments about whether to build, keep, or remove something.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["planning", "architecture", "decision-making", "skills"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.16.0"
+    },
+    {
+      "name": "waza-check",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/check"
+      },
+      "description": "Reviews code diffs after implementation, auto-fixes safe issues, and runs specialist security and architecture reviewers on large diffs. Also triages issues and PRs.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["code-review", "security", "architecture", "auto-fix"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.15.0"
+    },
+    {
+      "name": "waza-hunt",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/hunt"
+      },
+      "description": "Finds root cause of errors, crashes, unexpected behavior, and failing tests before applying any fix.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["debugging", "error-fixing", "troubleshooting", "testing"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.17.0"
+    },
+    {
+      "name": "waza-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/design"
+      },
+      "description": "Produces distinctive, production-grade UI for any component, page, or visual interface. Handles screenshot-driven iteration when the user sends an image with a visual complaint.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["ui", "design", "frontend", "css", "components"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.18.0"
+    },
+    {
+      "name": "waza-read",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/read"
+      },
+      "description": "Fetches any URL or PDF as clean Markdown. Handles paywalls, JS-heavy pages, X/Twitter, and Chinese platforms via proxy cascade.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["web-fetching", "pdf", "markdown", "content-extraction"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.14.0"
+    },
+    {
+      "name": "waza-write",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/write"
+      },
+      "description": "Strips AI writing patterns and rewrites prose to sound natural in Chinese or English. Only activates on explicit writing or editing requests.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["writing", "editing", "natural-language", "chinese", "english"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.18.0"
+    },
+    {
+      "name": "waza-learn",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/tw93/Waza",
+        "path": "skills/learn"
+      },
+      "description": "Runs a six-phase research workflow to turn unfamiliar domains or collected sources into publish-ready output.",
+      "category": "development",
+      "repository": "https://github.com/tw93/Waza",
+      "keywords": ["research", "learning", "workflow", "writing"],
+      "author": {
+        "name": "Tw93"
+      },
+      "license": "MIT",
+      "version": "3.15.0"
     }
   ]
 }

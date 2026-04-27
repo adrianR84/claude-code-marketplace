@@ -51,6 +51,14 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [atlas](#atlas) | pacifio | Atlas design language skill |
 | [beads](#beads) | Steve Yegge | Distributed graph issue tracker for AI agents |
 | [agent-session-resume](#agent-session-resume) | hacktivist123 | Reconstruct and continue prior AI coding-agent sessions |
+| [waza-health](#waza-health) | Tw93 | Audits Claude Code config stack |
+| [waza-think](#waza-think) | Tw93 | Turns rough ideas into approved plans |
+| [waza-check](#waza-check) | Tw93 | Reviews code diffs, auto-fixes safe issues |
+| [waza-hunt](#waza-hunt) | Tw93 | Finds root cause of errors and crashes |
+| [waza-design](#waza-design) | Tw93 | Produces distinctive production-grade UI |
+| [waza-read](#waza-read) | Tw93 | Fetches URLs/PDFs as clean Markdown |
+| [waza-write](#waza-write) | Tw93 | Strips AI writing patterns, sounds natural |
+| [waza-learn](#waza-learn) | Tw93 | Six-phase research workflow |
 
 ### Telegram Notifications
 
@@ -528,6 +536,142 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install agent-session-resume@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Health
+
+- **Name**: `waza-health`
+- **Description**: Audits the full six-layer Claude Code config stack when Claude ignores instructions, behaves inconsistently, hooks malfunction, or MCP servers need auditing. Flags issues by severity.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: config, auditing, hooks, mcp, debugging
+- **License**: MIT
+- **Version**: 3.16.0
+- **Installation**:
+  ```bash
+  /plugin install waza-health@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Think
+
+- **Name**: `waza-think`
+- **Description**: Turns rough ideas into approved plans with validated structure before writing code. Covers new features, architecture decisions, and value judgments about whether to build, keep, or remove something.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: planning, architecture, decision-making, skills
+- **License**: MIT
+- **Version**: 3.16.0
+- **Installation**:
+  ```bash
+  /plugin install waza-think@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Check
+
+- **Name**: `waza-check`
+- **Description**: Reviews code diffs after implementation, auto-fixes safe issues, and runs specialist security and architecture reviewers on large diffs. Also triages issues and PRs.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: code-review, security, architecture, auto-fix
+- **License**: MIT
+- **Version**: 3.15.0
+- **Installation**:
+  ```bash
+  /plugin install waza-check@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Hunt
+
+- **Name**: `waza-hunt`
+- **Description**: Finds root cause of errors, crashes, unexpected behavior, and failing tests before applying any fix.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: debugging, error-fixing, troubleshooting, testing
+- **License**: MIT
+- **Version**: 3.17.0
+- **Installation**:
+  ```bash
+  /plugin install waza-hunt@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Design
+
+- **Name**: `waza-design`
+- **Description**: Produces distinctive, production-grade UI for any component, page, or visual interface. Handles screenshot-driven iteration when the user sends an image with a visual complaint.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: ui, design, frontend, css, components
+- **License**: MIT
+- **Version**: 3.18.0
+- **Installation**:
+  ```bash
+  /plugin install waza-design@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Read
+
+- **Name**: `waza-read`
+- **Description**: Fetches any URL or PDF as clean Markdown. Handles paywalls, JS-heavy pages, X/Twitter, and Chinese platforms via proxy cascade.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: web-fetching, pdf, markdown, content-extraction
+- **License**: MIT
+- **Version**: 3.14.0
+- **Installation**:
+  ```bash
+  /plugin install waza-read@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Write
+
+- **Name**: `waza-write`
+- **Description**: Strips AI writing patterns and rewrites prose to sound natural in Chinese or English. Only activates on explicit writing or editing requests.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: writing, editing, natural-language, chinese, english
+- **License**: MIT
+- **Version**: 3.18.0
+- **Installation**:
+  ```bash
+  /plugin install waza-write@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Waza Learn
+
+- **Name**: `waza-learn`
+- **Description**: Runs a six-phase research workflow to turn unfamiliar domains or collected sources into publish-ready output.
+- **Category**: Development
+- **Author**: Tw93
+- **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
+- **Keywords**: research, learning, workflow, writing
+- **License**: MIT
+- **Version**: 3.15.0
+- **Installation**:
+  ```bash
+  /plugin install waza-learn@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
