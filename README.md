@@ -50,6 +50,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [obsidian](#obsidian) | Steph Ango | Claude Skills for Obsidian |
 | [atlas](#atlas) | pacifio | Atlas design language skill |
 | [beads](#beads) | Steve Yegge | Distributed graph issue tracker for AI agents |
+| [agent-session-resume](#agent-session-resume) | hacktivist123 | Reconstruct and continue prior AI coding-agent sessions |
 
 ### Telegram Notifications
 
@@ -510,6 +511,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install beads@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Agent Session Resume
+
+- **Name**: `agent-session-resume`
+- **Description**: Adds the agent-session-resume skill for reconstructing and continuing prior AI coding-agent sessions.
+- **Category**: Productivity
+- **Author**: hacktivist123
+- **Repository**: <a href="https://github.com/hacktivist123/agent-session-resume" target="_blank">hacktivist123/agent-session-resume</a>
+- **Keywords**: agent-skills, handoff, session-resume, claude-code, coding-agents
+- **License**: MIT
+- **Version**: 0.1.1
+- **Installation**:
+  ```bash
+  /plugin install agent-session-resume@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

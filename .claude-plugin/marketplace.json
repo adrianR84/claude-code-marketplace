@@ -451,6 +451,22 @@
       },
       "license": "MIT",
       "version": "1.0.3"
+    },
+    {
+      "name": "agent-session-resume",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/hacktivist123/agent-session-resume"
+      },
+      "description": "Adds the agent-session-resume skill for reconstructing and continuing prior AI coding-agent sessions.",
+      "category": "productivity",
+      "repository": "https://github.com/hacktivist123/agent-session-resume",
+      "keywords": ["agent-skills", "handoff", "session-resume", "claude-code", "coding-agents"],
+      "author": {
+        "name": "hacktivist123"
+      },
+      "license": "MIT",
+      "version": "0.1.1"
     }
   ]
 }
