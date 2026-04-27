@@ -61,6 +61,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [waza-learn](#waza-learn) | Tw93 | Six-phase research workflow |
 | [design-extract](#design-extract) | Manavarya Singh | Extract design language from any website |
 | [claude-flow](#claude-flow) | rUv | Enterprise AI agent orchestration |
+| [all-permissions](#all-permissions) | adrianR84 | Auto-approves tool calls after security scanning |
 
 ### Telegram Notifications
 
@@ -708,6 +709,22 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install claude-flow@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### All Permissions
+
+- **Name**: `all-permissions`
+- **Description**: Claude Code plugin for auto-approving tool calls after security scanning for prompt injections, path traversal, and other injection attacks.
+- **Category**: Security
+- **Author**: adrianR84
+- **Repository**: <a href="https://github.com/adrianR84/claude-code-all-permissions" target="_blank">adrianR84/claude-code-all-permissions</a>
+- **Keywords**: security, permissions, auto-approve, injection-prevention, prompt-injection
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install all-permissions@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

@@ -635,6 +635,21 @@
       },
       "license": "MIT",
       "version": "2.5.0"
+    },
+    {
+      "name": "all-permissions",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/adrianR84/claude-code-all-permissions"
+      },
+      "description": "Claude Code plugin for auto-approving tool calls after security scanning for prompt injections, path traversal, and other injection attacks.",
+      "category": "security",
+      "repository": "https://github.com/adrianR84/claude-code-all-permissions",
+      "keywords": ["security", "permissions", "auto-approve", "injection-prevention", "prompt-injection"],
+      "author": {
+        "name": "adrianR84"
+      },
+      "license": "MIT"
     }
   ]
 }
