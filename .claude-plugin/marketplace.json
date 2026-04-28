@@ -63,7 +63,7 @@
       "author": {
         "name": "adrianR84"
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "name": "protective-hooks",
@@ -211,7 +211,7 @@
         "name": "AdrianR84"
       },
       "license": "MIT",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "name": "minimal-claude",
