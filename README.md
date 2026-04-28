@@ -22,19 +22,19 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 
 | Plugin | Version | Author | Description |
 |--------|---------|--------|-------------|
-| [telegram-notifications](#telegram-notifications) | 1.0.1 | AdrianR84 | Telegram notifications for Claude Code events |
+| [telegram-notifications](#telegram-notifications) | 1.0.2 | AdrianR84 | Telegram notifications for Claude Code events |
 | [toast-notifications](#toast-notifications) | 1.0.0 | TianqiZhang | Windows toast notifications for Claude Code events |
-| [browserless](#browserless) | 1.0.1 | adrianR84 | Browser automation and web scraping capabilities |
+| [browserless](#browserless) | 1.0.2 | adrianR84 | Browser automation and web scraping capabilities |
 | [greeting](#greeting) | 1.0.1 | adrianR84 | A customizable greeting plugin |
 | [protective-hooks](#protective-hooks) | 1.0.1 | adrianR84 | Security hooks for Claude Code |
 | [claude-cybersecurity](#claude-cybersecurity) | 1.1.0 | AgriciDaniel | AI-powered cybersecurity code review skill |
-| [rss-aggregator](#rss-aggregator) | 1.0.0 | adrianR84 | RSS feed aggregation and article extraction |
-| [my-mcps](#my-mcps) | 1.0.1 | adrianR84 | MCP server integrations |
+| [rss-aggregator](#rss-aggregator) | 1.0.4 | adrianR84 | RSS feed aggregation and article extraction |
+| [my-mcps](#my-mcps) | 1.0.2 | adrianR84 | MCP server integrations |
 | [andrej-karpathy-skills](#andrej-karpathy-skills) | 1.0.0 | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
 | [claude-code-skills](#claude-code-skills) | 1.0.1 | AdrianR84 | A collection of skills for Claude Code |
 | [claude-mem](#claude-mem) | 12.4.8 | Alex Newman | Persistent memory system for Claude Code |
-| [memsearch](#memsearch) | 0.3.6 | Zilliz | Automatic semantic memory for Claude Code |
-| [remember](#remember) | 0.6.0 | Digital Process Tools | Continuous memory for Claude Code |
+| [memsearch](#memsearch) | 0.4.1 | Zilliz | Automatic semantic memory for Claude Code |
+| [remember](#remember) | 0.7.0 | Digital Process Tools | Continuous memory for Claude Code |
 | [wiki-skills](#wiki-skills) | 1.0.0 | Kenny Chou | LLM-maintained personal wiki skills |
 | [llm-wiki-compiler](#llm-wiki-compiler) | 2.0 | Sumant | Compiles markdown into topic-based wiki |
 | [skill-bus](#skill-bus) | 0.7.0 | Joey Nguyen | Connect context, conditions, and skills |
@@ -42,7 +42,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [tdd-guard](#tdd-guard) | 1.4.1 | Nizar Selander | Test-Driven Development enforcement |
 | [micro-skill-pipeline](#micro-skill-pipeline) | 1.0.0 | stevesolun | Gated micro-pipeline for quality checks |
 | [banana-claude](#banana-claude) | 1.4.1 | AgriciDaniel | AI image generation Creative Director |
-| [claude-seo](#claude-seo) | 1.9.0 | AgriciDaniel | Comprehensive SEO analysis skill |
+| [claude-seo](#claude-seo) | 1.9.6 | AgriciDaniel | Comprehensive SEO analysis skill |
 | [claude-ads](#claude-ads) | 1.5.1 | AgriciDaniel | Paid advertising audit & optimization |
 | [claude-obsidian](#claude-obsidian) | 1.6.0 | AgriciDaniel | Claude + Obsidian knowledge companion |
 | [claude-prompts](#claude-prompts) | 1.0.0 | AgriciDaniel | AI prompt database and builder |
@@ -61,7 +61,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [waza-learn](#waza-learn) | 3.15.0 | Tw93 | Six-phase research workflow |
 | [design-extract](#design-extract) | 1.0.0 | Manavarya Singh | Extract design language from any website |
 | [claude-flow](#claude-flow) | 2.5.0 | rUv | Enterprise AI agent orchestration |
-| [all-permissions](#all-permissions) | 1.0.1 | adrianR84 | Auto-approves tool calls after security scanning |
+| [all-permissions](#all-permissions) | 1.0.2 | adrianR84 | Auto-approves tool calls after security scanning |
 
 ### Telegram Notifications
 
@@ -104,7 +104,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/browserless-claude-plugin" target="_blank">adrianR84/browserless-claude-plugin</a>
 - **Keywords**: browser automation, web scraping
 - **License**: MIT
-- **Version**: 1.0.1
+- **Version**: 1.0.2
 - **Installation**:
   ```bash
   /plugin install browserless@claude-code-awesome
@@ -170,7 +170,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/rss-aggregator" target="_blank">adrianR84/rss-aggregator</a>
 - **Keywords**: rss, feed, aggregator, articles
 - **License**: MIT
-- **Version**: 1.0.0
+- **Version**: 1.0.4
 - **Installation**:
   ```bash
   /plugin install rss-aggregator@claude-code-awesome
@@ -187,7 +187,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-mcps" target="_blank">adrianR84/claude-code-mcps</a>
 - **Keywords**: mcp, composio, dbhub, plugin
 - **License**: MIT
-- **Version**: 1.0.1
+- **Version**: 1.0.2
 - **Installation**:
   ```bash
   /plugin install my-mcps@claude-code-awesome
@@ -255,7 +255,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/zilliztech/memsearch" target="_blank">zilliztech/memsearch</a>
 - **Keywords**: memory, semantic-search, milvus, markdown
 - **License**: MIT
-- **Version**: 0.3.6
+- **Version**: 0.4.1
 - **Installation**:
   ```bash
   /plugin install memsearch@claude-code-awesome
@@ -272,7 +272,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/Digital-Process-Tools/claude-remember" target="_blank">Digital-Process-Tools/claude-remember</a>
 - **Keywords**: memory, context, persistence, session
 - **License**: Community License
-- **Version**: 0.6.0
+- **Version**: 0.7.0
 - **Installation**:
   ```bash
   /plugin install remember@claude-code-awesome
@@ -408,7 +408,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-seo" target="_blank">AgriciDaniel/claude-seo</a>
 - **Keywords**: seo, marketing-automation, technical-seo, e-e-a-t, schema, backlinks
 - **License**: MIT
-- **Version**: 1.9.0
+- **Version**: 1.9.6
 - **Installation**:
   ```bash
   /plugin install claude-seo@claude-code-awesome
@@ -731,7 +731,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-all-permissions" target="_blank">adrianR84/claude-code-all-permissions</a>
 - **Keywords**: security, permissions, auto-approve, injection-prevention, prompt-injection
 - **License**: MIT
-- **Version**: 1.0.1
+- **Version**: 1.0.2
 - **Installation**:
   ```bash
   /plugin install all-permissions@claude-code-awesome

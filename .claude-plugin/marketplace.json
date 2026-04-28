@@ -18,7 +18,7 @@
       "author": {
         "name": "AdrianR84"
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "name": "toast-notifications",
@@ -48,7 +48,7 @@
       "author": {
         "name": "adrianR84"
       },
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
     {
       "name": "greeting",
@@ -77,7 +77,8 @@
       "keywords": ["security", "hooks", "protection", "secrets", "dangerous-commands"],
       "author": {
         "name": "adrianR84"
-      }
+      },
+      "version": "1.0.2"
     },
     {
       "name": "claude-cybersecurity",
@@ -109,7 +110,7 @@
         "name": "adrianR84"
       },
       "license": "MIT",
-      "version": "1.0.0"
+      "version": "1.0.4"
     },
     {
       "name": "my-mcps",
@@ -127,7 +128,8 @@
       "author": {
         "name": "adrianR84"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.2"
     },
     {
       "name": "andrej-karpathy-skills",
@@ -176,7 +178,7 @@
       "repository": "https://github.com/Digital-Process-Tools/claude-remember",
       "keywords": ["memory", "context", "persistence", "session"],
       "license": "Community License",
-      "version": "0.6.0"
+      "version": "0.7.0"
     },
     {
       "name": "micro-skill-pipeline",
@@ -309,7 +311,7 @@
         "name": "Zilliz"
       },
       "license": "MIT",
-      "version": "0.3.6"
+      "version": "0.4.1"
     },
     {
       "name": "banana-claude",
@@ -341,7 +343,7 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT",
-      "version": "1.9.0"
+      "version": "1.9.6"
     },
     {
       "name": "claude-ads",
@@ -655,7 +657,7 @@
         "name": "adrianR84"
       },
       "license": "MIT",
-      "version": "1.0.1"
+      "version": "1.0.2"
     }
   ]
 }
