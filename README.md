@@ -20,48 +20,48 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 
 ## 🚀 Available Plugins
 
-| Plugin | Author | Description |
-|--------|--------|-------------|
-| [telegram-notifications](#telegram-notifications) | AdrianR84 | Telegram notifications for Claude Code events |
-| [toast-notifications](#toast-notifications) | TianqiZhang | Windows toast notifications for Claude Code events |
-| [browserless](#browserless) | adrianR84 | Browser automation and web scraping capabilities |
-| [greeting](#greeting) | adrianR84 | A customizable greeting plugin |
-| [protective-hooks](#protective-hooks) | adrianR84 | Security hooks for Claude Code |
-| [claude-cybersecurity](#claude-cybersecurity) | AgriciDaniel | AI-powered cybersecurity code review skill |
-| [rss-aggregator](#rss-aggregator) | adrianR84 | RSS feed aggregation and article extraction |
-| [my-mcps](#my-mcps) | adrianR84 | MCP server integrations |
-| [andrej-karpathy-skills](#andrej-karpathy-skills) | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
-| [claude-code-skills](#claude-code-skills) | AdrianR84 | A collection of skills for Claude Code |
-| [claude-mem](#claude-mem) | Alex Newman | Persistent memory system for Claude Code |
-| [memsearch](#memsearch) | Zilliz | Automatic semantic memory for Claude Code |
-| [remember](#remember) | Digital Process Tools | Continuous memory for Claude Code |
-| [wiki-skills](#wiki-skills) | Kenny Chou | LLM-maintained personal wiki skills |
-| [llm-wiki-compiler](#llm-wiki-compiler) | Sumant | Compiles markdown into topic-based wiki |
-| [skill-bus](#skill-bus) | Joey Nguyen | Connect context, conditions, and skills |
-| [minimal-claude](#minimal-claude) | KenKaiii | Auto-configures linting, typechecking, and fixing |
-| [tdd-guard](#tdd-guard) | Nizar Selander | Test-Driven Development enforcement |
-| [micro-skill-pipeline](#micro-skill-pipeline) | stevesolun | Gated micro-pipeline for quality checks |
-| [banana-claude](#banana-claude) | AgriciDaniel | AI image generation Creative Director |
-| [claude-seo](#claude-seo) | AgriciDaniel | Comprehensive SEO analysis skill |
-| [claude-ads](#claude-ads) | AgriciDaniel | Paid advertising audit & optimization |
-| [claude-obsidian](#claude-obsidian) | AgriciDaniel | Claude + Obsidian knowledge companion |
-| [claude-prompts](#claude-prompts) | AgriciDaniel | AI prompt database and builder |
-| [prompt-mini](#prompt-mini) | nidhinjs | Forges weak prompts into structured prompts |
-| [obsidian](#obsidian) | Steph Ango | Claude Skills for Obsidian |
-| [atlas](#atlas) | pacifio | Atlas design language skill |
-| [beads](#beads) | Steve Yegge | Distributed graph issue tracker for AI agents |
-| [agent-session-resume](#agent-session-resume) | hacktivist123 | Reconstruct and continue prior AI coding-agent sessions |
-| [waza-health](#waza-health) | Tw93 | Audits Claude Code config stack |
-| [waza-think](#waza-think) | Tw93 | Turns rough ideas into approved plans |
-| [waza-check](#waza-check) | Tw93 | Reviews code diffs, auto-fixes safe issues |
-| [waza-hunt](#waza-hunt) | Tw93 | Finds root cause of errors and crashes |
-| [waza-design](#waza-design) | Tw93 | Produces distinctive production-grade UI |
-| [waza-read](#waza-read) | Tw93 | Fetches URLs/PDFs as clean Markdown |
-| [waza-write](#waza-write) | Tw93 | Strips AI writing patterns, sounds natural |
-| [waza-learn](#waza-learn) | Tw93 | Six-phase research workflow |
-| [design-extract](#design-extract) | Manavarya Singh | Extract design language from any website |
-| [claude-flow](#claude-flow) | rUv | Enterprise AI agent orchestration |
-| [all-permissions](#all-permissions) | adrianR84 | Auto-approves tool calls after security scanning |
+| Plugin | Version | Author | Description |
+|--------|---------|--------|-------------|
+| [telegram-notifications](#telegram-notifications) | 1.0.1 | AdrianR84 | Telegram notifications for Claude Code events |
+| [toast-notifications](#toast-notifications) | 1.0.0 | TianqiZhang | Windows toast notifications for Claude Code events |
+| [browserless](#browserless) | 1.0.1 | adrianR84 | Browser automation and web scraping capabilities |
+| [greeting](#greeting) | 1.0.0 | adrianR84 | A customizable greeting plugin |
+| [protective-hooks](#protective-hooks) | 1.0.1 | adrianR84 | Security hooks for Claude Code |
+| [claude-cybersecurity](#claude-cybersecurity) | 1.1.0 | AgriciDaniel | AI-powered cybersecurity code review skill |
+| [rss-aggregator](#rss-aggregator) | 1.0.0 | adrianR84 | RSS feed aggregation and article extraction |
+| [my-mcps](#my-mcps) | 1.0.1 | adrianR84 | MCP server integrations |
+| [andrej-karpathy-skills](#andrej-karpathy-skills) | 1.0.0 | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
+| [claude-code-skills](#claude-code-skills) | 1.0.1 | AdrianR84 | A collection of skills for Claude Code |
+| [claude-mem](#claude-mem) | 12.4.7 | Alex Newman | Persistent memory system for Claude Code |
+| [memsearch](#memsearch) | 0.3.6 | Zilliz | Automatic semantic memory for Claude Code |
+| [remember](#remember) | 0.6.0 | Digital Process Tools | Continuous memory for Claude Code |
+| [wiki-skills](#wiki-skills) | 1.0.0 | Kenny Chou | LLM-maintained personal wiki skills |
+| [llm-wiki-compiler](#llm-wiki-compiler) | 2.0 | Sumant | Compiles markdown into topic-based wiki |
+| [skill-bus](#skill-bus) | 0.7.0 | Joey Nguyen | Connect context, conditions, and skills |
+| [minimal-claude](#minimal-claude) | 1.6.1 | KenKaiii | Auto-configures linting, typechecking, and fixing |
+| [tdd-guard](#tdd-guard) | 1.4.1 | Nizar Selander | Test-Driven Development enforcement |
+| [micro-skill-pipeline](#micro-skill-pipeline) | 1.0.0 | stevesolun | Gated micro-pipeline for quality checks |
+| [banana-claude](#banana-claude) | 1.4.1 | AgriciDaniel | AI image generation Creative Director |
+| [claude-seo](#claude-seo) | 1.9.0 | AgriciDaniel | Comprehensive SEO analysis skill |
+| [claude-ads](#claude-ads) | 1.5.1 | AgriciDaniel | Paid advertising audit & optimization |
+| [claude-obsidian](#claude-obsidian) | 1.6.0 | AgriciDaniel | Claude + Obsidian knowledge companion |
+| [claude-prompts](#claude-prompts) | 1.0.0 | AgriciDaniel | AI prompt database and builder |
+| [prompt-mini](#prompt-mini) | 0.1.0 | nidhinjs | Forges weak prompts into structured prompts |
+| [obsidian](#obsidian) | 1.0.1 | Steph Ango | Claude Skills for Obsidian |
+| [atlas](#atlas) | 0.2.0 | pacifio | Atlas design language skill |
+| [beads](#beads) | 1.0.3 | Steve Yegge | Distributed graph issue tracker for AI agents |
+| [agent-session-resume](#agent-session-resume) | 0.1.1 | hacktivist123 | Reconstruct and continue prior AI coding-agent sessions |
+| [waza-health](#waza-health) | 3.16.0 | Tw93 | Audits Claude Code config stack |
+| [waza-think](#waza-think) | 3.16.0 | Tw93 | Turns rough ideas into approved plans |
+| [waza-check](#waza-check) | 3.15.0 | Tw93 | Reviews code diffs, auto-fixes safe issues |
+| [waza-hunt](#waza-hunt) | 3.17.0 | Tw93 | Finds root cause of errors and crashes |
+| [waza-design](#waza-design) | 3.18.0 | Tw93 | Produces distinctive production-grade UI |
+| [waza-read](#waza-read) | 3.14.0 | Tw93 | Fetches URLs/PDFs as clean Markdown |
+| [waza-write](#waza-write) | 3.18.0 | Tw93 | Strips AI writing patterns, sounds natural |
+| [waza-learn](#waza-learn) | 3.15.0 | Tw93 | Six-phase research workflow |
+| [design-extract](#design-extract) | 1.0.0 | Manavarya Singh | Extract design language from any website |
+| [claude-flow](#claude-flow) | 2.5.0 | rUv | Enterprise AI agent orchestration |
+| [all-permissions](#all-permissions) | 1.0.1 | adrianR84 | Auto-approves tool calls after security scanning |
 
 ### Telegram Notifications
 
@@ -72,6 +72,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-telegram-notifications" target="_blank">adrianR84/claude-code-telegram-notifications</a>
 - **Keywords**: telegram, notifications, hooks
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install telegram-notifications@claude-code-awesome
@@ -87,6 +88,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/TianqiZhang/claude-code-toast" target="_blank">TianqiZhang/claude-code-toast</a>
 - **Keywords**: windows toast, notifications
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install toast-notifications@claude-code-awesome
@@ -102,6 +104,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/browserless-claude-plugin" target="_blank">adrianR84/browserless-claude-plugin</a>
 - **Keywords**: browser automation, web scraping
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install browserless@claude-code-awesome
@@ -132,6 +135,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-protective-hooks" target="_blank">adrianR84/claude-code-protective-hooks</a>
 - **Keywords**: security, hooks, protection, secrets, dangerous-commands
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install protective-hooks@claude-code-awesome
@@ -148,7 +152,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-cybersecurity" target="_blank">AgriciDaniel/claude-cybersecurity</a>
 - **Keywords**: cybersecurity, owasp, code-review, devsecops, vulnerability-scanner, appsec
 - **License**: MIT
-- **Version**: 1.0.0
+- **Version**: 1.1.0
 - **Installation**:
   ```bash
   /plugin install claude-cybersecurity@claude-code-awesome
@@ -165,6 +169,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/rss-aggregator" target="_blank">adrianR84/rss-aggregator</a>
 - **Keywords**: rss, feed, aggregator, articles
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install rss-aggregator@claude-code-awesome
@@ -181,7 +186,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-mcps" target="_blank">adrianR84/claude-code-mcps</a>
 - **Keywords**: mcp, composio, dbhub, plugin
 - **License**: MIT
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install my-mcps@claude-code-awesome
@@ -215,6 +220,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-skills" target="_blank">adrianR84/claude-code-skills</a>
 - **Keywords**: skills
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install claude-code-skills@claude-code-awesome
@@ -384,6 +390,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/banana-claude" target="_blank">AgriciDaniel/banana-claude</a>
 - **Keywords**: image-generation, ai-art, gemini, creative-director
 - **License**: MIT
+- **Version**: 1.4.1
 - **Installation**:
   ```bash
   /plugin install banana-claude@claude-code-awesome
@@ -451,6 +458,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-prompts" target="_blank">AgriciDaniel/claude-prompts</a>
 - **Keywords**: prompt-engineering, prompts, ai
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install claude-prompts@claude-code-awesome
@@ -722,6 +730,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-all-permissions" target="_blank">adrianR84/claude-code-all-permissions</a>
 - **Keywords**: security, permissions, auto-approve, injection-prevention, prompt-injection
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install all-permissions@claude-code-awesome
