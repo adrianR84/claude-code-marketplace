@@ -1,6 +1,6 @@
 ---
 name: add-marketplace-plugin
-description: Add a Claude Code plugin to the marketplace from a GitHub URL. Use this skill whenever the user provides a GitHub repository URL and asks to add it as a plugin to the claude-code-marketplace. This includes phrases like "add this plugin", "add this repo to marketplace", "register this plugin", or any request containing a github.com URL for a plugin to be added. The skill handles both direct plugin repos and repos that contain a marketplace.json listing multiple plugins with relative or absolute paths.
+description: Add a Claude Code plugin to the marketplace from a GitHub URL, or sync versions for all plugins. Use this skill whenever the user provides a GitHub repository URL and asks to add it as a plugin to the claude-code-marketplace. This includes phrases like "add this plugin", "add this repo to marketplace", "register this plugin", or any request containing a github.com URL for a plugin to be added. Also use for syncing versions with phrases like "sync versions", "update all versions", "check for new versions", or "refresh plugin versions". The skill handles both direct plugin repos and repos that contain a marketplace.json listing multiple plugins with relative or absolute paths.
 ---
 
 # Add Marketplace Plugin
@@ -207,3 +207,85 @@ Tell the user the plugin(s) were added successfully and provide the installation
 - **Plugin already exists**: Skip it, note it was already present, and don't update the existing entry.
 - **Subdirectory plugins use `git-subdir`**: When a plugin is inside a subdirectory of the source repo, always use `source: "git-subdir"` with the base repo URL and the subdirectory path, not a tree URL.
 - **Version not found**: If a plugin has no declared version in its manifest or README, omit the `version` field from the marketplace.json entry. Do not guess or default to "1.0.0".
+
+---
+
+## Sync Versions Mode
+
+This skill also supports **syncing versions** for all plugins in the marketplace. Trigger with phrases like:
+- "sync versions"
+- "update all versions"
+- "check for new versions"
+- "refresh plugin versions"
+- "sync marketplace versions"
+- Any request to update/bump/check versions for all plugins in the marketplace
+
+### Sync Versions Workflow
+
+**Step 1: Read Current Marketplace**
+
+Read `.claude-plugin/marketplace.json` to get the list of all plugins with their repository URLs and current versions.
+
+**Step 2: Check Each Plugin for New Versions**
+
+For each plugin in the marketplace:
+
+1. Construct the GitHub repo URL from the `repository` field
+2. Check for a `marketplace.json` file at:
+   - `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/marketplace.json`
+   - `https://raw.githubusercontent.com/{owner}/{repo}/HEAD/.claude-plugin/marketplace.json`
+3. Also check for version in:
+   - The repo's README.md
+   - GitHub releases API: `https://api.github.com/repos/{owner}/{repo}/releases/latest`
+
+3. Extract the version from whichever source has it
+4. Compare with the current version in our marketplace.json
+
+**Step 3: Compile Update List**
+
+Create a list of plugins where a new version was found:
+- `{plugin-name}`: `{current-version}` → `{new-version}`
+
+**Step 4: Present Changes to User**
+
+Show the user the list of available updates and ask for confirmation before applying.
+
+**Step 5: Update marketplace.json**
+
+For each plugin with a new version, use `Edit` to update the `version` field in `.claude-plugin/marketplace.json`.
+
+**Step 6: Update README.md**
+
+For each plugin with a new version, use `Edit` to update the version in:
+1. The plugin's section (find the `- **Version**:` line)
+2. The table at the top (find the row with the plugin name and update the version column)
+
+**Step 7: Ask or Confirm Before Committing**
+
+Show the user a summary of the changes made.
+
+**If the user specified commit intent upfront**, skip this step and proceed directly to Step 8.
+
+**Otherwise**, ask: "Shall I commit and push these changes?" Only proceed if the user confirms.
+
+**Step 8: Commit and Push**
+
+1. Run `git status` to verify the changed files
+2. Run `git add .claude-plugin/marketplace.json README.md`
+3. Run `git commit -m "Sync plugin versions from GitHub repos"` with Co-Author footer:
+   ```
+   Co-Authored-By: Claude Opus 4.7 <noreply@anthropic.com>
+   ```
+4. Run `git push`
+
+**Step 9: Confirm**
+
+Tell the user how many plugins were updated and which ones changed.
+
+## Sync Versions Edge Cases
+
+- **Version not found in repo**: If a plugin's GitHub repo doesn't expose a version, leave that plugin unchanged in marketplace.json and README.md.
+- **Same version**: If the GitHub version equals the current version, no update needed.
+- **GitHub repo not accessible**: If the repo URL is invalid or the file can't be fetched, skip that plugin and note it.
+- **New version field added**: If a plugin previously had no version and now has one, treat this as an update (add the version field).
+- **Waza plugins**: These come from `tw93/Waza` repo with subdirectory paths. Check the main Waza repo for version updates - all Waza skills typically share the same version.
