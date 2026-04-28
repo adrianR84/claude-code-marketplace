@@ -228,18 +228,39 @@ Read `.claude-plugin/marketplace.json` to get the list of all plugins with their
 
 **Step 2: Check Each Plugin for New Versions**
 
-For each plugin in the marketplace:
+Spawn multiple agents in parallel to check all repositories for their versions. Each agent handles a subset of plugins and reports back the version information.
 
-1. Construct the GitHub repo URL from the `repository` field
-2. Check for a `marketplace.json` file at:
-   - `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/marketplace.json`
-   - `https://raw.githubusercontent.com/{owner}/{repo}/HEAD/.claude-plugin/marketplace.json`
-3. Also check for version in:
-   - The repo's README.md
-   - GitHub releases API: `https://api.github.com/repos/{owner}/{repo}/releases/latest`
+1. First, read `.claude-plugin/marketplace.json` to get the complete list of plugins with their `repository` URLs and current versions.
 
-3. Extract the version from whichever source has it
-4. Compare with the current version in our marketplace.json
+2. Divide the plugins into groups of 5-10 plugins per agent (to avoid overwhelming the agents with too many tasks). For small plugin lists (< 5), use a single agent. For large lists, spawn multiple agents simultaneously.
+
+3. For each agent, provide:
+   - The list of plugins to check (name, repository URL, current version)
+   - Instructions to check for version files in this order:
+     - `marketplace.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/marketplace.json`
+     - `marketplace.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/HEAD/.claude-plugin/marketplace.json`
+     - `plugin.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/plugin.json`
+     - `plugin.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/HEAD/.claude-plugin/plugin.json`
+   - Extract the version from whichever source has it
+   - Report back for each plugin: name, current version, new version found (or "no version" if not found)
+
+4. Wait for all agents to complete and collect their results.
+
+5. Combine results from all agents into a single list of plugins with version info.
+
+**Example agent spawn** (pseudocode):
+```
+For plugins [A, B, C, D, E] → spawn agent with these 5 plugins
+For plugins [F, G, H] → spawn another agent with these 3 plugins
+```
+
+Each agent should report in this format:
+```
+Plugin: {name}
+Repository: {repository}
+Current Version: {current}
+New Version: {new-version} or "not found"
+```
 
 **Step 3: Compile Update List**
 
