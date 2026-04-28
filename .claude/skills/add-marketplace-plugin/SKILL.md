@@ -162,7 +162,7 @@ Read `README.md`, then for each plugin, add a new section at the end of its cate
 
 Add the plugin to the table at the top of `## 🚀 Available Plugins` section, after the last entry. Insert a new row:
 ```
-| [{plugin-name}](#{plugin-name}) | {author} | {short-description} |
+| [{plugin-name}](#{plugin-name}) | {version} | {author} | {short-description} |
 ```
 The short-description should be a brief (under 80 characters) version of the full description, suitable for the table.
 ```
