@@ -63,7 +63,7 @@
       "author": {
         "name": "adrianR84"
       },
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "protective-hooks",
@@ -160,7 +160,7 @@
         "name": "Alex Newman"
       },
       "license": "AGPL-3.0",
-      "version": "12.4.7"
+      "version": "12.4.8"
     },
     {
       "name": "remember",

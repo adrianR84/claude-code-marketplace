@@ -25,14 +25,14 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [telegram-notifications](#telegram-notifications) | 1.0.1 | AdrianR84 | Telegram notifications for Claude Code events |
 | [toast-notifications](#toast-notifications) | 1.0.0 | TianqiZhang | Windows toast notifications for Claude Code events |
 | [browserless](#browserless) | 1.0.1 | adrianR84 | Browser automation and web scraping capabilities |
-| [greeting](#greeting) | 1.0.0 | adrianR84 | A customizable greeting plugin |
+| [greeting](#greeting) | 1.0.1 | adrianR84 | A customizable greeting plugin |
 | [protective-hooks](#protective-hooks) | 1.0.1 | adrianR84 | Security hooks for Claude Code |
 | [claude-cybersecurity](#claude-cybersecurity) | 1.1.0 | AgriciDaniel | AI-powered cybersecurity code review skill |
 | [rss-aggregator](#rss-aggregator) | 1.0.0 | adrianR84 | RSS feed aggregation and article extraction |
 | [my-mcps](#my-mcps) | 1.0.1 | adrianR84 | MCP server integrations |
 | [andrej-karpathy-skills](#andrej-karpathy-skills) | 1.0.0 | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
 | [claude-code-skills](#claude-code-skills) | 1.0.1 | AdrianR84 | A collection of skills for Claude Code |
-| [claude-mem](#claude-mem) | 12.4.7 | Alex Newman | Persistent memory system for Claude Code |
+| [claude-mem](#claude-mem) | 12.4.8 | Alex Newman | Persistent memory system for Claude Code |
 | [memsearch](#memsearch) | 0.3.6 | Zilliz | Automatic semantic memory for Claude Code |
 | [remember](#remember) | 0.6.0 | Digital Process Tools | Continuous memory for Claude Code |
 | [wiki-skills](#wiki-skills) | 1.0.0 | Kenny Chou | LLM-maintained personal wiki skills |
@@ -120,6 +120,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-greeting" target="_blank">adrianR84/claude-code-greeting</a>
 - **Keywords**: greeting
 - **License**: MIT
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install greeting@claude-code-awesome
@@ -237,7 +238,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
 - **Keywords**: memory, persistence, context, session, compression
 - **License**: AGPL-3.0
-- **Version**: 12.4.7
+- **Version**: 12.4.8
 - **Installation**:
   ```bash
   /plugin install claude-mem@claude-code-awesome
