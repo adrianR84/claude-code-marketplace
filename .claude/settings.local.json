@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(defuddle parse *)",
+      "Bash(echo \"---EXIT $?\")",
+      "Bash(echo \"---EXIT:$?\")",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)"
+    ]
+  }
+}

@@ -236,13 +236,12 @@ Spawn multiple agents in parallel to check all repositories for their versions. 
 
 3. For each agent, provide:
    - The list of plugins to check (name, repository URL, current version)
-   - Instructions to check for version files in this order:
-     - `marketplace.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/marketplace.json`
-     - `marketplace.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/HEAD/.claude-plugin/marketplace.json`
-     - `plugin.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/plugin.json`
-     - `plugin.json` at: `https://raw.githubusercontent.com/{owner}/{repo}/HEAD/.claude-plugin/plugin.json`
-   - Extract the version from whichever source has it
-   - Report back for each plugin: name, current version, new version found (or "no version" if not found)
+   - Instructions to check for version in the repo's structured files:
+     - **First, fetch the repo's marketplace.json** (`https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/marketplace.json` or `/marketplace.json`)
+     - **If the repo has a marketplace.json with a `plugins` array**: Find the matching plugin entry by name (or by repository URL/path) in that array and extract its `version` field
+     - **If no marketplace.json or no matching plugin in the array**: Fall back to the plugin's own `.claude-plugin/plugin.json` or `.claude-plugin/marketplace.json`
+     - Extract the version from whichever source has it
+     - Report back for each plugin: name, current version, new version found (or "no version" if not found)
 
 4. Wait for all agents to complete and collect their results.
 
@@ -305,6 +304,7 @@ Tell the user how many plugins were updated and which ones changed.
 
 ## Sync Versions Edge Cases
 
+- **Repo has marketplace.json with multiple plugins**: When checking a repo that contains a marketplace.json with a `plugins` array, find the specific plugin entry by matching its name or repository path within that array. Each plugin in the array may have its own version — use the version from the matching entry, not the repo root.
 - **Version not found in repo**: If a plugin's GitHub repo doesn't expose a version, leave that plugin unchanged in marketplace.json and README.md.
 - **Same version**: If the GitHub version equals the current version, no update needed.
 - **GitHub repo not accessible**: If the repo URL is invalid or the file can't be fetched, skip that plugin and note it.
