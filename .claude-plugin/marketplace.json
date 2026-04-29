@@ -658,6 +658,22 @@
       },
       "license": "MIT",
       "version": "1.0.2"
+    },
+    {
+      "name": "agentops",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/boshu2/agentops"
+      },
+      "description": "The operational layer for coding agents. Bookkeeping, validation, and flows that compound knowledge between sessions.",
+      "category": "development",
+      "repository": "https://github.com/boshu2/agentops",
+      "keywords": ["devops", "cursor", "codex", "ai-agents", "claude", "vibe-coding", "claude-code", "claude-code-plugins", "claude-skills", "claude-marketplace", "codex-plugin", "opencode-plugin"],
+      "author": {
+        "name": "Boden Fuller"
+      },
+      "license": "Apache-2.0",
+      "version": "2.39.0"
     }
   ]
 }

@@ -62,6 +62,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [design-extract](#design-extract) | 1.0.0 | Manavarya Singh | Extract design language from any website |
 | [claude-flow](#claude-flow) | 2.5.0 | rUv | Enterprise AI agent orchestration |
 | [all-permissions](#all-permissions) | 1.0.2 | adrianR84 | Auto-approves tool calls after security scanning |
+| [agentops](#agentops) | 2.39.0 | boshu2 | The operational layer for coding agents |
 
 ### Telegram Notifications
 
@@ -735,6 +736,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install all-permissions@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### AgentOps
+
+- **Name**: `agentops`
+- **Description**: The operational layer for coding agents. Bookkeeping, validation, and flows that compound knowledge between sessions.
+- **Category**: Development
+- **Author**: Boden Fuller
+- **Repository**: <a href="https://github.com/boshu2/agentops" target="_blank">boshu2/agentops</a>
+- **Keywords**: devops, cursor, codex, ai-agents, claude, vibe-coding, claude-code, claude-code-plugins, claude-skills, claude-marketplace, codex-plugin, opencode-plugin
+- **License**: Apache-2.0
+- **Version**: 2.39.0
+- **Installation**:
+  ```bash
+  /plugin install agentops@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
