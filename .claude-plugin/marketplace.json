@@ -674,6 +674,21 @@
       },
       "license": "Apache-2.0",
       "version": "2.39.0"
+    },
+    {
+      "name": "last30days",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/mvanhorn/last30days-skill"
+      },
+      "description": "Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and 5+ more sources. AI agent scores by upvotes, likes, and real money - not editors.",
+      "category": "productivity",
+      "repository": "https://github.com/mvanhorn/last30days-skill",
+      "keywords": ["reddit", "youtube", "twitter", "hackernews", "polymarket", "research", "web-search", "tiktok", "instagram", "trends"],
+      "author": {
+        "name": "Matt Van Horn"
+      },
+      "version": "3.1.1"
     }
   ]
 }

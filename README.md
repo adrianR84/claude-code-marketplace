@@ -63,6 +63,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [claude-flow](#claude-flow) | 2.5.0 | rUv | Enterprise AI agent orchestration |
 | [all-permissions](#all-permissions) | 1.0.2 | adrianR84 | Auto-approves tool calls after security scanning |
 | [agentops](#agentops) | 2.39.0 | boshu2 | The operational layer for coding agents |
+| [last30days](#last30days) | 3.1.1 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
 
 ### Telegram Notifications
 
@@ -753,6 +754,22 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install agentops@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Last30Days
+
+- **Name**: `last30days`
+- **Description**: Research any topic across Reddit, X, YouTube, TikTok, Instagram, Hacker News, Polymarket, GitHub, and 5+ more sources. AI agent scores by upvotes, likes, and real money - not editors.
+- **Category**: Productivity
+- **Author**: Matt Van Horn
+- **Repository**: <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
+- **Keywords**: reddit, youtube, twitter, hackernews, polymarket, research, web-search, tiktok, instagram, trends
+- **Version**: 3.1.1
+- **Installation**:
+  ```bash
+  /plugin install last30days@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
