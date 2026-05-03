@@ -65,6 +65,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [agentops](#agentops) | 2.39.0 | boshu2 | The operational layer for coding agents |
 | [last30days](#last30days) | 3.1.1 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
 | [understand-anything](#understand-anything) | 2.3.1 | Lum1104 | Interactive knowledge graphs for codebase understanding |
+| [everything-claude-code](#everything-claude-code) | 2.0.0-rc.1 | Affaan Mustafa | Agent harness performance optimization system |
 
 ### Telegram Notifications
 
@@ -788,6 +789,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install understand-anything@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Everything Claude Code
+
+- **Name**: `everything-claude-code`
+- **Description**: The agent harness performance optimization system. 48 agents, 182 skills, 68 command shims, TDD/security/review hooks, and research-first development for Claude Code, Codex, Cursor and beyond.
+- **Category**: Development
+- **Author**: Affaan Mustafa
+- **Repository**: <a href="https://github.com/affaan-m/everything-claude-code" target="_blank">affaan-m/everything-claude-code</a>
+- **Keywords**: agent-harness, performance-optimization, tdd, security-scanning, code-review, skills, agents, harness, anthropic-hackathon
+- **License**: MIT
+- **Version**: 2.0.0-rc.1
+- **Installation**:
+  ```bash
+  /plugin install everything-claude-code@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
