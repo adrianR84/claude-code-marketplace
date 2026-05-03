@@ -64,6 +64,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [all-permissions](#all-permissions) | 1.0.2 | adrianR84 | Auto-approves tool calls after security scanning |
 | [agentops](#agentops) | 2.39.0 | boshu2 | The operational layer for coding agents |
 | [last30days](#last30days) | 3.1.1 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
+| [understand-anything](#understand-anything) | 2.3.1 | Lum1104 | Interactive knowledge graphs for codebase understanding |
 
 ### Telegram Notifications
 
@@ -770,6 +771,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install last30days@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Understand Anything
+
+- **Name**: `understand-anything`
+- **Description**: Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about.
+- **Category**: Productivity
+- **Author**: Lum1104
+- **Repository**: <a href="https://github.com/Lum1104/Understand-Anything" target="_blank">Lum1104/Understand-Anything</a>
+- **Keywords**: knowledge-graph, knowledge-base, codex, karpathy, wiki, memory, codebase-analysis
+- **License**: MIT
+- **Version**: 2.3.1
+- **Installation**:
+  ```bash
+  /plugin install understand-anything@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

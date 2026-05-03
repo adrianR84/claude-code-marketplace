@@ -676,6 +676,23 @@
       "version": "2.39.0"
     },
     {
+      "name": "understand-anything",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/Lum1104/Understand-Anything",
+        "path": "understand-anything-plugin"
+      },
+      "description": "Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about.",
+      "category": "productivity",
+      "repository": "https://github.com/Lum1104/Understand-Anything",
+      "keywords": ["knowledge-graph", "knowledge-base", "codex", "karpathy", "wiki", "memory", "codebase-analysis"],
+      "author": {
+        "name": "Lum1104"
+      },
+      "license": "MIT",
+      "version": "2.3.1"
+    },
+    {
       "name": "last30days",
       "source": {
         "source": "url",
