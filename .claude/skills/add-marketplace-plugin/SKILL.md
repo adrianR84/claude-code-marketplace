@@ -228,6 +228,8 @@ Read `.claude-plugin/marketplace.json` to get the list of all plugins with their
 
 **Step 2: Check Each Plugin for New Versions**
 
+**Critical: Use WebFetch, not curl.** All remote file fetching (marketplace.json, plugin.json) must use `WebFetch` tool to raw GitHub URLs. Never use `Bash(curl ...)` — it triggers permission prompts.
+
 Spawn multiple agents in parallel to check all repositories for their versions. Each agent handles a subset of plugins and reports back the version information.
 
 1. First, read `.claude-plugin/marketplace.json` to get the complete list of plugins with their `repository` URLs and current versions.
