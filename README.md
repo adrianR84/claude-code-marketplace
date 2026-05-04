@@ -66,6 +66,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [last30days](#last30days) | 3.1.1 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
 | [understand-anything](#understand-anything) | 2.3.1 | Lum1104 | Interactive knowledge graphs for codebase understanding |
 | [everything-claude-code](#everything-claude-code) | 2.0.0-rc.1 | Affaan Mustafa | Agent harness performance optimization system |
+| [marketingskills](#marketingskills) | 1.9.0 | Corey Haines | 40 marketing skills for AI agents |
 
 ### Telegram Notifications
 
@@ -806,6 +807,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install everything-claude-code@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Marketing Skills
+
+- **Name**: `marketingskills`
+- **Description**: 40 marketing skills for AI agents — CRO, copywriting, SEO, cold email, paid ads, analytics, churn prevention, pricing strategy, and growth engineering for technical marketers and founders.
+- **Category**: Productivity
+- **Author**: Corey Haines
+- **Repository**: <a href="https://github.com/coreyhaines31/marketingskills" target="_blank">coreyhaines31/marketingskills</a>
+- **Keywords**: marketing, cro, copywriting, seo, cold-email, paid-ads, analytics, churn, growth, revops, sales, pricing
+- **License**: MIT
+- **Version**: 1.9.0
+- **Installation**:
+  ```bash
+  /plugin install marketingskills@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

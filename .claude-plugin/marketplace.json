@@ -722,6 +722,22 @@
       },
       "license": "MIT",
       "version": "2.0.0-rc.1"
+    },
+    {
+      "name": "marketingskills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/coreyhaines31/marketingskills"
+      },
+      "description": "40 marketing skills for AI agents — CRO, copywriting, SEO, cold email, paid ads, analytics, churn prevention, pricing strategy, and growth engineering for technical marketers and founders.",
+      "category": "productivity",
+      "repository": "https://github.com/coreyhaines31/marketingskills",
+      "keywords": ["marketing", "cro", "copywriting", "seo", "cold-email", "paid-ads", "analytics", "churn", "growth", "revops", "sales", "pricing"],
+      "author": {
+        "name": "Corey Haines"
+      },
+      "license": "MIT",
+      "version": "1.9.0"
     }
   ]
 }
