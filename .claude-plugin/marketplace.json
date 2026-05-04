@@ -33,7 +33,7 @@
       "author": {
         "name": "TianqiZhang"
       },
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
     {
       "name": "browserless",
@@ -162,7 +162,7 @@
         "name": "Alex Newman"
       },
       "license": "AGPL-3.0",
-      "version": "12.4.8"
+      "version": "12.6.0"
     },
     {
       "name": "remember",
@@ -178,7 +178,7 @@
       "repository": "https://github.com/Digital-Process-Tools/claude-remember",
       "keywords": ["memory", "context", "persistence", "session"],
       "license": "Community License",
-      "version": "0.7.0"
+      "version": "0.7.1"
     },
     {
       "name": "micro-skill-pipeline",
@@ -211,7 +211,7 @@
         "name": "AdrianR84"
       },
       "license": "MIT",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
     {
       "name": "minimal-claude",
@@ -490,7 +490,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.16.0"
+      "version": "3.17.0"
     },
     {
       "name": "waza-think",
@@ -524,7 +524,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.15.0"
+      "version": "3.20.0"
     },
     {
       "name": "waza-hunt",
@@ -541,7 +541,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.17.0"
+      "version": "3.19.0"
     },
     {
       "name": "waza-design",
@@ -558,7 +558,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.18.0"
+      "version": "3.19.0"
     },
     {
       "name": "waza-read",

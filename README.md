@@ -23,7 +23,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | Plugin | Version | Author | Description |
 |--------|---------|--------|-------------|
 | [telegram-notifications](#telegram-notifications) | 1.0.2 | AdrianR84 | Telegram notifications for Claude Code events |
-| [toast-notifications](#toast-notifications) | 1.0.0 | TianqiZhang | Windows toast notifications for Claude Code events |
+| [toast-notifications](#toast-notifications) | 1.0.1 | TianqiZhang | Windows toast notifications for Claude Code events |
 | [browserless](#browserless) | 1.0.2 | adrianR84 | Browser automation and web scraping capabilities |
 | [greeting](#greeting) | 1.0.2 | adrianR84 | A customizable greeting plugin |
 | [protective-hooks](#protective-hooks) | 1.0.1 | adrianR84 | Security hooks for Claude Code |
@@ -31,10 +31,10 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [rss-aggregator](#rss-aggregator) | 1.0.4 | adrianR84 | RSS feed aggregation and article extraction |
 | [my-mcps](#my-mcps) | 1.0.2 | adrianR84 | MCP server integrations |
 | [andrej-karpathy-skills](#andrej-karpathy-skills) | 1.0.0 | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
-| [claude-code-skills](#claude-code-skills) | 1.0.2 | AdrianR84 | A collection of skills for Claude Code |
-| [claude-mem](#claude-mem) | 12.4.8 | Alex Newman | Persistent memory system for Claude Code |
+| [claude-code-skills](#claude-code-skills) | 1.0.3 | AdrianR84 | A collection of skills for Claude Code |
+| [claude-mem](#claude-mem) | 12.6.0 | Alex Newman | Persistent memory system for Claude Code |
 | [memsearch](#memsearch) | 0.4.1 | Zilliz | Automatic semantic memory for Claude Code |
-| [remember](#remember) | 0.7.0 | Digital Process Tools | Continuous memory for Claude Code |
+| [remember](#remember) | 0.7.1 | Digital Process Tools | Continuous memory for Claude Code |
 | [wiki-skills](#wiki-skills) | 1.0.0 | Kenny Chou | LLM-maintained personal wiki skills |
 | [llm-wiki-compiler](#llm-wiki-compiler) | 2.0 | Sumant | Compiles markdown into topic-based wiki |
 | [skill-bus](#skill-bus) | 0.7.0 | Joey Nguyen | Connect context, conditions, and skills |
@@ -51,11 +51,11 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [atlas](#atlas) | 0.2.0 | pacifio | Atlas design language skill |
 | [beads](#beads) | 1.0.3 | Steve Yegge | Distributed graph issue tracker for AI agents |
 | [agent-session-resume](#agent-session-resume) | 0.1.1 | hacktivist123 | Reconstruct and continue prior AI coding-agent sessions |
-| [waza-health](#waza-health) | 3.16.0 | Tw93 | Audits Claude Code config stack |
-| [waza-think](#waza-think) | 3.16.0 | Tw93 | Turns rough ideas into approved plans |
-| [waza-check](#waza-check) | 3.15.0 | Tw93 | Reviews code diffs, auto-fixes safe issues |
-| [waza-hunt](#waza-hunt) | 3.17.0 | Tw93 | Finds root cause of errors and crashes |
-| [waza-design](#waza-design) | 3.18.0 | Tw93 | Produces distinctive production-grade UI |
+| [waza-health](#waza-health) | 3.17.0 | Tw93 | Audits Claude Code config stack |
+| [waza-think](#waza-think) | 3.17.0 | Tw93 | Turns rough ideas into approved plans |
+| [waza-check](#waza-check) | 3.20.0 | Tw93 | Reviews code diffs, auto-fixes safe issues |
+| [waza-hunt](#waza-hunt) | 3.19.0 | Tw93 | Finds root cause of errors and crashes |
+| [waza-design](#waza-design) | 3.19.0 | Tw93 | Produces distinctive production-grade UI |
 | [waza-read](#waza-read) | 3.14.0 | Tw93 | Fetches URLs/PDFs as clean Markdown |
 | [waza-write](#waza-write) | 3.18.0 | Tw93 | Strips AI writing patterns, sounds natural |
 | [waza-learn](#waza-learn) | 3.15.0 | Tw93 | Six-phase research workflow |
@@ -93,7 +93,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/TianqiZhang/claude-code-toast" target="_blank">TianqiZhang/claude-code-toast</a>
 - **Keywords**: windows toast, notifications
 - **License**: MIT
-- **Version**: 1.0.0
+- **Version**: 1.0.1
 - **Installation**:
   ```bash
   /plugin install toast-notifications@claude-code-awesome
@@ -226,7 +226,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-skills" target="_blank">adrianR84/claude-code-skills</a>
 - **Keywords**: skills
 - **License**: MIT
-- **Version**: 1.0.2
+- **Version**: 1.0.3
 - **Installation**:
   ```bash
   /plugin install claude-code-skills@claude-code-awesome
@@ -243,7 +243,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
 - **Keywords**: memory, persistence, context, session, compression
 - **License**: AGPL-3.0
-- **Version**: 12.4.8
+- **Version**: 12.6.0
 - **Installation**:
   ```bash
   /plugin install claude-mem@claude-code-awesome
@@ -277,7 +277,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/Digital-Process-Tools/claude-remember" target="_blank">Digital-Process-Tools/claude-remember</a>
 - **Keywords**: memory, context, persistence, session
 - **License**: Community License
-- **Version**: 0.7.0
+- **Version**: 0.7.1
 - **Installation**:
   ```bash
   /plugin install remember@claude-code-awesome
@@ -566,7 +566,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: config, auditing, hooks, mcp, debugging
 - **License**: MIT
-- **Version**: 3.16.0
+- **Version**: 3.17.0
 - **Installation**:
   ```bash
   /plugin install waza-health@claude-code-awesome
@@ -583,7 +583,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: planning, architecture, decision-making, skills
 - **License**: MIT
-- **Version**: 3.16.0
+- **Version**: 3.17.0
 - **Installation**:
   ```bash
   /plugin install waza-think@claude-code-awesome
@@ -600,7 +600,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: code-review, security, architecture, auto-fix
 - **License**: MIT
-- **Version**: 3.15.0
+- **Version**: 3.20.0
 - **Installation**:
   ```bash
   /plugin install waza-check@claude-code-awesome
@@ -617,7 +617,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: debugging, error-fixing, troubleshooting, testing
 - **License**: MIT
-- **Version**: 3.17.0
+- **Version**: 3.19.0
 - **Installation**:
   ```bash
   /plugin install waza-hunt@claude-code-awesome
@@ -634,7 +634,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: ui, design, frontend, css, components
 - **License**: MIT
-- **Version**: 3.18.0
+- **Version**: 3.19.0
 - **Installation**:
   ```bash
   /plugin install waza-design@claude-code-awesome
