@@ -69,6 +69,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [token-optimizer](#token-optimizer) | 5.6.5 | Alex Greenshpun | Audit and monitor Claude Code context window usage |
 | [marketingskills](#marketingskills) | 1.9.0 | Corey Haines | 40 marketing skills for AI agents |
 | [obsidian-mind](#obsidian-mind) | 1.0.1 | breferrari | Obsidian vault with persistent memory for AI agents |
+| [agent-skills](#agent-skills) | - | addyosmani | Production-grade engineering skills for AI coding agents |
 
 ### Telegram Notifications
 
@@ -860,6 +861,22 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install obsidian-mind@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Agent Skills
+
+- **Name**: `agent-skills`
+- **Description**: Production-grade engineering skills for AI coding agents. 20 structured skills covering the full development lifecycle — spec writing, planning, implementation, testing, code review, and shipping.
+- **Category**: Development
+- **Author**: addyosmani
+- **Repository**: <a href="https://github.com/addyosmani/agent-skills" target="_blank">addyosmani/agent-skills</a>
+- **Keywords**: skills, cursor, agent-skills, claude-code, antigravity
+- **License**: MIT
+- **Installation**:
+  ```bash
+  /plugin install agent-skills@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

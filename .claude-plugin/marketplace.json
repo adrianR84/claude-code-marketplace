@@ -770,6 +770,21 @@
       },
       "license": "MIT",
       "version": "1.0.1"
+    },
+    {
+      "name": "agent-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/addyosmani/agent-skills"
+      },
+      "description": "Production-grade engineering skills for AI coding agents. 20 structured skills covering the full development lifecycle — spec writing, planning, implementation, testing, code review, and shipping.",
+      "category": "development",
+      "repository": "https://github.com/addyosmani/agent-skills",
+      "keywords": ["skills", "cursor", "agent-skills", "claude-code", "antigravity"],
+      "author": {
+        "name": "addyosmani"
+      },
+      "license": "MIT"
     }
   ]
 }
