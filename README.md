@@ -68,6 +68,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [everything-claude-code](#everything-claude-code) | 2.0.0-rc.1 | Affaan Mustafa | Agent harness performance optimization system |
 | [token-optimizer](#token-optimizer) | 5.6.5 | Alex Greenshpun | Audit and monitor Claude Code context window usage |
 | [marketingskills](#marketingskills) | 1.9.0 | Corey Haines | 40 marketing skills for AI agents |
+| [obsidian-mind](#obsidian-mind) | 1.0.1 | breferrari | Obsidian vault with persistent memory for AI agents |
 
 ### Telegram Notifications
 
@@ -842,6 +843,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install token-optimizer@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Obsidian Mind
+
+- **Name**: `obsidian-mind`
+- **Description**: An Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI.
+- **Category**: Productivity
+- **Author**: breferrari
+- **Repository**: <a href="https://github.com/breferrari/obsidian-mind" target="_blank">breferrari/obsidian-mind</a>
+- **Keywords**: obsidian, persistent-memory, claude-code, codex, gemini
+- **License**: MIT
+- **Version**: 1.0.1
+- **Installation**:
+  ```bash
+  /plugin install obsidian-mind@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

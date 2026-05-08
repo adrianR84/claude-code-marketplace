@@ -754,6 +754,22 @@
       },
       "license": "MIT",
       "version": "1.9.0"
+    },
+    {
+      "name": "obsidian-mind",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/breferrari/obsidian-mind"
+      },
+      "description": "An Obsidian vault that gives AI coding agents persistent memory. Claude Code, Codex CLI, Gemini CLI.",
+      "category": "productivity",
+      "repository": "https://github.com/breferrari/obsidian-mind",
+      "keywords": ["obsidian", "persistent-memory", "claude-code", "codex", "gemini"],
+      "author": {
+        "name": "breferrari"
+      },
+      "license": "MIT",
+      "version": "1.0.1"
     }
   ]
 }
