@@ -724,6 +724,22 @@
       "version": "2.0.0-rc.1"
     },
     {
+      "name": "token-optimizer",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alexgreensh/token-optimizer"
+      },
+      "description": "Audit, fix, and monitor Claude Code context window usage. Find the ghost tokens.",
+      "category": "productivity",
+      "repository": "https://github.com/alexgreensh/token-optimizer",
+      "keywords": ["token", "optimization", "context", "audit", "cost", "coach"],
+      "author": {
+        "name": "Alex Greenshpun"
+      },
+      "license": "PolyForm-Noncommercial-1.0.0",
+      "version": "5.6.5"
+    },
+    {
       "name": "marketingskills",
       "source": {
         "source": "url",

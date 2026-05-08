@@ -66,6 +66,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [last30days](#last30days) | 3.1.1 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
 | [understand-anything](#understand-anything) | 2.3.1 | Lum1104 | Interactive knowledge graphs for codebase understanding |
 | [everything-claude-code](#everything-claude-code) | 2.0.0-rc.1 | Affaan Mustafa | Agent harness performance optimization system |
+| [token-optimizer](#token-optimizer) | 5.6.5 | Alex Greenshpun | Audit and monitor Claude Code context window usage |
 | [marketingskills](#marketingskills) | 1.9.0 | Corey Haines | 40 marketing skills for AI agents |
 
 ### Telegram Notifications
@@ -824,6 +825,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install marketingskills@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Token Optimizer
+
+- **Name**: `token-optimizer`
+- **Description**: Audit, fix, and monitor Claude Code context window usage. Find the ghost tokens.
+- **Category**: Productivity
+- **Author**: Alex Greenshpun
+- **Repository**: <a href="https://github.com/alexgreensh/token-optimizer" target="_blank">alexgreensh/token-optimizer</a>
+- **Keywords**: token, optimization, context, audit, cost, coach
+- **License**: PolyForm-Noncommercial-1.0.0
+- **Version**: 5.6.5
+- **Installation**:
+  ```bash
+  /plugin install token-optimizer@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
