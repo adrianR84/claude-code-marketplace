@@ -70,6 +70,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [marketingskills](#marketingskills) | 1.9.0 | Corey Haines | 40 marketing skills for AI agents |
 | [obsidian-mind](#obsidian-mind) | 1.0.1 | breferrari | Obsidian vault with persistent memory for AI agents |
 | [agent-skills](#agent-skills) | - | addyosmani | Production-grade engineering skills for AI coding agents |
+| [agentmemory](#agentmemory) | 0.9.9 | Rohit Ghumare | Persistent memory for AI coding agents |
 
 ### Telegram Notifications
 
@@ -877,6 +878,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install agent-skills@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Agentmemory
+
+- **Name**: `agentmemory`
+- **Description**: Persistent memory for AI coding agents — captures tool usage, compresses via LLM, injects context into future sessions
+- **Category**: Productivity
+- **Author**: Rohit Ghumare
+- **Repository**: <a href="https://github.com/rohitg00/agentmemory" target="_blank">rohitg00/agentmemory</a>
+- **Keywords**: memory, persistence, context, session, compression, lifetime, ai-agents
+- **License**: Apache-2.0
+- **Version**: 0.9.9
+- **Installation**:
+  ```bash
+  /plugin install agentmemory@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

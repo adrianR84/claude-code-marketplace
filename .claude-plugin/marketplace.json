@@ -785,6 +785,23 @@
         "name": "addyosmani"
       },
       "license": "MIT"
+    },
+    {
+      "name": "agentmemory",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/rohitg00/agentmemory",
+        "path": "plugin"
+      },
+      "description": "Persistent memory for AI coding agents — captures tool usage, compresses via LLM, injects context into future sessions",
+      "category": "productivity",
+      "repository": "https://github.com/rohitg00/agentmemory",
+      "keywords": ["memory", "persistence", "context", "session", "compression", "lifetime", "ai-agents"],
+      "author": {
+        "name": "Rohit Ghumare"
+      },
+      "license": "Apache-2.0",
+      "version": "0.9.9"
     }
   ]
 }
