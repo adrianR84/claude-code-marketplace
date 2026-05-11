@@ -802,6 +802,22 @@
       },
       "license": "Apache-2.0",
       "version": "0.9.9"
+    },
+    {
+      "name": "pro-workflow",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/rohitg00/pro-workflow"
+      },
+      "description": "Complete AI coding workflow: context engineering, agent teams, 23 hook scripts, 6 agents, 14 skills, 9 guides, cross-agent support, and searchable learnings.",
+      "category": "productivity",
+      "repository": "https://github.com/rohitg00/pro-workflow",
+      "keywords": ["workflow", "productivity", "self-correction", "worktrees", "hooks", "agents", "orchestration", "cross-agent", "cursor", "codex"],
+      "author": {
+        "name": "Rohit Ghumare"
+      },
+      "license": "MIT",
+      "version": "3.3.0"
     }
   ]
 }

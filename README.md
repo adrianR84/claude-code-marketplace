@@ -71,6 +71,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [obsidian-mind](#obsidian-mind) | 1.0.1 | breferrari | Obsidian vault with persistent memory for AI agents |
 | [agent-skills](#agent-skills) | - | addyosmani | Production-grade engineering skills for AI coding agents |
 | [agentmemory](#agentmemory) | 0.9.9 | Rohit Ghumare | Persistent memory for AI coding agents |
+| [pro-workflow](#pro-workflow) | 3.3.0 | Rohit Ghumare | Complete AI coding workflow with hooks and agents |
 
 ### Telegram Notifications
 
@@ -895,6 +896,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install agentmemory@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Pro Workflow
+
+- **Name**: `pro-workflow`
+- **Description**: Complete AI coding workflow: context engineering, agent teams, 23 hook scripts, 6 agents, 14 skills, 9 guides, cross-agent support, and searchable learnings.
+- **Category**: Productivity
+- **Author**: Rohit Ghumare
+- **Repository**: <a href="https://github.com/rohitg00/pro-workflow" target="_blank">rohitg00/pro-workflow</a>
+- **Keywords**: workflow, productivity, self-correction, worktrees, hooks, agents, orchestration, cross-agent, cursor, codex
+- **License**: MIT
+- **Version**: 3.3.0
+- **Installation**:
+  ```bash
+  /plugin install pro-workflow@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
