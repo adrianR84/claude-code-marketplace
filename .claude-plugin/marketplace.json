@@ -205,7 +205,7 @@
         "name": "Alex Newman"
       },
       "license": "AGPL-3.0",
-      "version": "13.11.0"
+      "version": "13.12.4"
     },
     {
       "name": "remember",
@@ -226,7 +226,7 @@
         "session"
       ],
       "license": "Community License",
-      "version": "0.8.3"
+      "version": "0.8.7"
     },
     {
       "name": "micro-skill-pipeline",
@@ -451,7 +451,7 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT",
-      "version": "2.2.0"
+      "version": "2.2.4"
     },
     {
       "name": "claude-ads",
@@ -473,7 +473,7 @@
         "name": "AgriciDaniel"
       },
       "license": "MIT",
-      "version": "1.7.0"
+      "version": "2.0.1"
     },
     {
       "name": "claude-obsidian",
@@ -652,7 +652,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.2"
+      "version": "3.32.0"
     },
     {
       "name": "waza-think",
@@ -674,7 +674,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.2"
+      "version": "3.32.0"
     },
     {
       "name": "waza-check",
@@ -696,7 +696,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.2"
+      "version": "3.32.0"
     },
     {
       "name": "waza-hunt",
@@ -718,16 +718,16 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.2"
+      "version": "3.32.0"
     },
     {
-      "name": "waza-design",
+      "name": "waza-ui",
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/tw93/Waza",
-        "path": "skills/design"
+        "path": "skills/ui"
       },
-      "description": "Produces distinctive, production-grade UI for any component, page, or visual interface. Handles screenshot-driven iteration when the user sends an image with a visual complaint.",
+      "description": "A comprehensive UI component library and design system for building consistent, accessible interfaces.",
       "category": "development",
       "repository": "https://github.com/tw93/Waza",
       "keywords": [
@@ -741,7 +741,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.2"
+      "version": "3.32.0"
     },
     {
       "name": "waza-read",
@@ -763,7 +763,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.2"
+      "version": "3.32.0"
     },
     {
       "name": "waza-write",
@@ -808,31 +808,7 @@
         "name": "Tw93"
       },
       "license": "MIT",
-      "version": "3.31.1"
-    },
-    {
-      "name": "design-extract",
-      "source": {
-        "source": "url",
-        "url": "https://github.com/Manavarya09/design-extract"
-      },
-      "description": "Extract the complete design language from any website — colors, typography, spacing, shadows, components, and more. Outputs AI-optimized markdown, W3C design tokens, Tailwind config, and CSS variables.",
-      "category": "design",
-      "repository": "https://github.com/Manavarya09/design-extract",
-      "keywords": [
-        "design-system",
-        "design-tokens",
-        "css",
-        "tailwind",
-        "typography",
-        "colors",
-        "web-scraping"
-      ],
-      "author": {
-        "name": "Manavarya Singh"
-      },
-      "license": "MIT",
-      "version": "12.10.1"
+      "version": "3.32.0"
     },
     {
       "name": "claude-flow",
@@ -961,7 +937,7 @@
       "author": {
         "name": "Matt Van Horn"
       },
-      "version": "3.16.0"
+      "version": "3.18.3"
     },
     {
       "name": "everything-claude-code",
@@ -1010,7 +986,7 @@
         "name": "Alex Greenshpun"
       },
       "license": "PolyForm-Noncommercial-1.0.0",
-      "version": "5.11.50"
+      "version": "5.11.66"
     },
     {
       "name": "marketingskills",
@@ -1039,7 +1015,7 @@
         "name": "Corey Haines"
       },
       "license": "MIT",
-      "version": "2.8.12"
+      "version": "2.9.0"
     },
     {
       "name": "obsidian-mind",
@@ -1175,7 +1151,7 @@
         "name": "Paul Bakaus"
       },
       "license": "Apache-2.0",
-      "version": "3.9.1"
+      "version": "4.0.2"
     },
     {
       "name": "caveman",
@@ -1252,7 +1228,7 @@
         "name": "Bernhard Goetzendorfer"
       },
       "license": "MIT",
-      "version": "3.14.0"
+      "version": "3.17.0"
     },
     {
       "name": "agent-wallet",
@@ -1275,7 +1251,7 @@
         "name": "AgentLayer"
       },
       "license": "PolyForm Small Business License 1.0.0",
-      "version": "0.1.44"
+      "version": "0.1.90"
     },
     {
       "name": "codex",
@@ -1324,7 +1300,7 @@
         "name": "Dietrich Gebert"
       },
       "license": "MIT",
-      "version": "4.6.0"
+      "version": "4.8.4"
     },
     {
       "name": "pixelbrowse",
@@ -1369,7 +1345,8 @@
       "author": {
         "name": "shadcn"
       },
-      "license": "MIT"
+      "license": "MIT",
+      "version": "1.0.0"
     },
     {
       "name": "claude-video",

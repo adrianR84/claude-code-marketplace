@@ -32,9 +32,9 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [my-mcps](#my-mcps) | 1.0.2 | adrianR84 | MCP server integrations |
 | [andrej-karpathy-skills](#andrej-karpathy-skills) | 1.0.2 | forrestchang | Behavioral guidelines to reduce LLM coding mistakes |
 | [claude-code-skills](#claude-code-skills) | 1.7.0 | AdrianR84 | A collection of skills for Claude Code |
-| [claude-mem](#claude-mem) | 13.11.0 | Alex Newman | Persistent memory system for Claude Code |
+| [claude-mem](#claude-mem) | 13.12.4 | Alex Newman | Persistent memory system for Claude Code |
 | [memsearch](#memsearch) | 0.7.3 | Zilliz | Automatic semantic memory for Claude Code |
-| [remember](#remember) | 0.8.3 | Digital Process Tools | Continuous memory for Claude Code |
+| [remember](#remember) | 0.8.7 | Digital Process Tools | Continuous memory for Claude Code |
 | [wiki-skills](#wiki-skills) | 1.0.0 | Kenny Chou | LLM-maintained personal wiki skills |
 | [llm-wiki-compiler](#llm-wiki-compiler) | 2.1.0 | Sumant | Compiles markdown into topic-based wiki |
 | [skill-bus](#skill-bus) | 0.7.0 | Joey Nguyen | Connect context, conditions, and skills |
@@ -42,8 +42,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [tdd-guard](#tdd-guard) | 2.1.0 | Nizar Selander | Test-Driven Development enforcement |
 | [micro-skill-pipeline](#micro-skill-pipeline) | 1.0.0 | stevesolun | Gated micro-pipeline for quality checks |
 | [banana-claude](#banana-claude) | 2.2.0 | AgriciDaniel | AI image generation Creative Director |
-| [claude-seo](#claude-seo) | 2.2.0 | AgriciDaniel | Comprehensive SEO analysis skill |
-| [claude-ads](#claude-ads) | 1.7.0 | AgriciDaniel | Paid advertising audit & optimization |
+| [claude-seo](#claude-seo) | 2.2.4 | AgriciDaniel | Comprehensive SEO analysis skill |
+| [claude-ads](#claude-ads) | 2.0.1 | AgriciDaniel | Paid advertising audit & optimization |
 | [claude-obsidian](#claude-obsidian) | 1.9.2 | AgriciDaniel | Claude + Obsidian knowledge companion |
 | [claude-prompts](#claude-prompts) | 2.2.0 | AgriciDaniel | AI prompt database and builder |
 | [prompt-mini](#prompt-mini) | 0.1.0 | nidhinjs | Forges weak prompts into structured prompts |
@@ -51,37 +51,36 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [atlas](#atlas) | 0.2.0 | pacifio | Atlas design language skill |
 | [beads](#beads) | 1.1.0 | Steve Yegge | Distributed graph issue tracker for AI agents |
 | [agent-session-resume](#agent-session-resume) | 1.1.0 | hacktivist123 | Reconstruct and continue prior AI coding-agent sessions |
-| [waza-health](#waza-health) | 3.31.2 | Tw93 | Audits Claude Code config stack |
-| [waza-think](#waza-think) | 3.31.2 | Tw93 | Turns rough ideas into approved plans |
-| [waza-check](#waza-check) | 3.31.2 | Tw93 | Reviews code diffs, auto-fixes safe issues |
-| [waza-hunt](#waza-hunt) | 3.31.2 | Tw93 | Finds root cause of errors and crashes |
-| [waza-design](#waza-design) | 3.31.1 | Tw93 | Produces distinctive production-grade UI |
-| [waza-read](#waza-read) | 3.31.2 | Tw93 | Fetches URLs/PDFs as clean Markdown |
-| [waza-write](#waza-write) | 3.31.2 | Tw93 | Strips AI writing patterns, sounds natural |
-| [waza-learn](#waza-learn) | 3.31.2 | Tw93 | Six-phase research workflow |
-| [design-extract](#design-extract) | 12.10.1 | Manavarya Singh | Extract design language from any website |
+| [waza-health](#waza-health) | 3.32.0 | Tw93 | Audits Claude Code config stack |
+| [waza-think](#waza-think) | 3.32.0 | Tw93 | Turns rough ideas into approved plans |
+| [waza-check](#waza-check) | 3.32.0 | Tw93 | Reviews code diffs, auto-fixes safe issues |
+| [waza-hunt](#waza-hunt) | 3.32.0 | Tw93 | Finds root cause of errors and crashes |
+| [waza-ui](#waza-ui) | 3.32.0 | Tw93 | A comprehensive UI component library and design system |
+| [waza-read](#waza-read) | 3.32.0 | Tw93 | Fetches URLs/PDFs as clean Markdown |
+| [waza-write](#waza-write) | 3.32.0 | Tw93 | Strips AI writing patterns, sounds natural |
+| [waza-learn](#waza-learn) | 3.32.0 | Tw93 | Six-phase research workflow |
 | [claude-flow](#claude-flow) | 2.5.0 | rUv | Enterprise AI agent orchestration |
 | [all-permissions](#all-permissions) | 1.0.3 | adrianR84 | Auto-approves tool calls after security scanning |
 | [agentops](#agentops) | 3.3.0 | boshu2 | The operational layer for coding agents |
-| [last30days](#last30days) | 3.16.0 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
+| [last30days](#last30days) | 3.18.3 | Matt Van Horn | Research any topic across Reddit, X, YouTube, HN, and more |
 | [understand-anything](#understand-anything) | 2.9.4 | Lum1104 | Interactive knowledge graphs for codebase understanding |
 | [everything-claude-code](#everything-claude-code) | 2.0.0 | Affaan Mustafa | Agent harness performance optimization system |
-| [token-optimizer](#token-optimizer) | 5.11.50 | Alex Greenshpun | Audit and monitor Claude Code context window usage |
-| [marketingskills](#marketingskills) | 2.8.12 | Corey Haines | 40 marketing skills for AI agents |
+| [token-optimizer](#token-optimizer) | 5.11.66 | Alex Greenshpun | Audit and monitor Claude Code context window usage |
+| [marketingskills](#marketingskills) | 2.9.0 | Corey Haines | 40 marketing skills for AI agents |
 | [obsidian-mind](#obsidian-mind) | 1.0.1 | breferrari | Obsidian vault with persistent memory for AI agents |
 | [agent-skills](#agent-skills) | 0.6.1 | addyosmani | Production-grade engineering skills for AI coding agents |
 | [agentmemory](#agentmemory) | 3.3.0 | Rohit Ghumare | Persistent memory for AI coding agents |
 | [pro-workflow](#pro-workflow) | 3.3.0 | Rohit Ghumare | Complete AI coding workflow with hooks and agents |
-| [impeccable](#impeccable) | 3.9.1 | Paul Bakaus | Design fluency for frontend development |
+| [impeccable](#impeccable) | 4.0.2 | Paul Bakaus | Design fluency for frontend development |
 | [claude-code-clock](#claude-code-clock) | 1.0.2 | AdrianR84 | Tracks time spent coding, injects wall-clock time |
 | [caveman](#caveman) | 1.9.0 | Julius Brussee | Ultra-compressed communication, cuts ~75% tokens |
 | [ui-ux-pro-max](#ui-ux-pro-max) | 2.11.0 | nextlevelbuilder | Professional UI/UX design intelligence with 67 styles |
-| [session-orchestrator](#session-orchestrator) | 3.14.0 | Bernhard Goetzendorfer | Wave planning and parallel subagent execution |
-| [agent-wallet](#agent-wallet) | 0.1.44 | AgentLayer | Claude Code bridge for AgentLayer wallet runtime |
+| [session-orchestrator](#session-orchestrator) | 3.17.0 | Bernhard Goetzendorfer | Wave planning and parallel subagent execution |
+| [agent-wallet](#agent-wallet) | 0.1.90 | AgentLayer | Claude Code bridge for AgentLayer wallet runtime |
 | [codex](#codex) | 1.0.6 | OpenAI | Use Codex from Claude Code to review code or delegate tasks |
-| [ponytail](#ponytail) | 4.6.0 | Dietrich Gebert | Forces the laziest solution that works. YAGNI, stdlib first.
+| [ponytail](#ponytail) | 4.8.4 | Dietrich Gebert | Forces the laziest solution that works. YAGNI, stdlib first.
 | [pixelbrowse](#pixelbrowse) | 0.1.0 | Zhifei Li | Screenshot any URL with pixelshot and read it visually
-| [improve](#improve) | — | shadcn | Audits codebases and writes implementation plans for agents
+| [improve](#improve) | 1.0.0 | shadcn | Audits codebases and writes implementation plans for agents
 | [claude-video](#claude-video) | 0.2.0 | Brad Bonanno | Give Claude the ability to watch and analyze any video
 | [taste-skill](#taste-skill) | 1.0.0 | leonxlnx | Anti-slop frontend design taste skills — brutalist, minimalist, soft, and more |
 | [mattpocock-skills](#mattpocock-skills) | 1.2.0 | Matt Pocock | Engineering skills — grilling, TDD, code review, domain modelling
@@ -244,7 +243,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/adrianR84/claude-code-skills" target="_blank">adrianR84/claude-code-skills</a>
 - **Keywords**: skills
 - **License**: MIT
-- **Version**: 1.7.0
+- **Version**: 2.0.1
 - **Installation**:
   ```bash
   /plugin install claude-code-skills@claude-code-awesome
@@ -261,7 +260,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/thedotmack/claude-mem" target="_blank">thedotmack/claude-mem</a>
 - **Keywords**: memory, persistence, context, session, compression
 - **License**: AGPL-3.0
-- **Version**: 13.11.0
+- **Version**: 13.12.4
 - **Installation**:
   ```bash
   /plugin install claude-mem@claude-code-awesome
@@ -295,7 +294,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/Digital-Process-Tools/claude-remember" target="_blank">Digital-Process-Tools/claude-remember</a>
 - **Keywords**: memory, context, persistence, session
 - **License**: Community License
-- **Version**: 0.8.3
+- **Version**: 0.8.7
 - **Installation**:
   ```bash
   /plugin install remember@claude-code-awesome
@@ -363,7 +362,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/KenKaiii/minimal-claude" target="_blank">KenKaiii/minimal-claude</a>
 - **Keywords**: linting, typechecking, fixing, commit, quality, automation
 - **License**: MIT
-- **Version**: 1.7.0
+- **Version**: 2.0.1
 - **Installation**:
   ```bash
   /plugin install minimal-claude@claude-code-awesome
@@ -414,7 +413,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/banana-claude" target="_blank">AgriciDaniel/banana-claude</a>
 - **Keywords**: image-generation, ai-art, gemini, creative-director
 - **License**: MIT
-- **Version**: 2.2.0
+- **Version**: 2.2.4
 - **Installation**:
   ```bash
   /plugin install banana-claude@claude-code-awesome
@@ -431,7 +430,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-seo" target="_blank">AgriciDaniel/claude-seo</a>
 - **Keywords**: seo, marketing-automation, technical-seo, e-e-a-t, schema, backlinks
 - **License**: MIT
-- **Version**: 2.2.0
+- **Version**: 2.2.4
 - **Installation**:
   ```bash
   /plugin install claude-seo@claude-code-awesome
@@ -448,7 +447,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-ads" target="_blank">AgriciDaniel/claude-ads</a>
 - **Keywords**: advertising, marketing-automation, ai-marketing, google-ads, meta-ads
 - **License**: MIT
-- **Version**: 1.7.0
+- **Version**: 2.0.1
 - **Installation**:
   ```bash
   /plugin install claude-ads@claude-code-awesome
@@ -482,7 +481,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/AgriciDaniel/claude-prompts" target="_blank">AgriciDaniel/claude-prompts</a>
 - **Keywords**: prompt-engineering, prompts, ai
 - **License**: MIT
-- **Version**: 2.2.0
+- **Version**: 2.2.4
 - **Installation**:
   ```bash
   /plugin install claude-prompts@claude-code-awesome
@@ -584,7 +583,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: config, auditing, hooks, mcp, debugging
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-health@claude-code-awesome
@@ -601,7 +600,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: planning, architecture, decision-making, skills
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-think@claude-code-awesome
@@ -618,7 +617,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: code-review, security, architecture, auto-fix
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-check@claude-code-awesome
@@ -635,7 +634,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: debugging, error-fixing, troubleshooting, testing
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-hunt@claude-code-awesome
@@ -643,19 +642,19 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 
 [← Back to Available Plugins](#-available-plugins)
 
-### Waza Design
+### Waza UI
 
-- **Name**: `waza-design`
-- **Description**: Produces distinctive, production-grade UI for any component, page, or visual interface. Handles screenshot-driven iteration when the user sends an image with a visual complaint.
+- **Name**: `waza-ui`
+- **Description**: A comprehensive UI component library and design system for building consistent, accessible interfaces.
 - **Category**: Development
 - **Author**: Tw93
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: ui, design, frontend, css, components
 - **License**: MIT
-- **Version**: 3.31.1
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
-  /plugin install waza-design@claude-code-awesome
+  /plugin install waza-ui@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
@@ -669,7 +668,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: web-fetching, pdf, markdown, content-extraction
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-read@claude-code-awesome
@@ -686,7 +685,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: writing, editing, natural-language, chinese, english
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-write@claude-code-awesome
@@ -703,27 +702,10 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/tw93/Waza" target="_blank">tw93/Waza</a>
 - **Keywords**: research, learning, workflow, writing
 - **License**: MIT
-- **Version**: 3.31.2
+- **Version**: 3.32.0
 - **Installation**:
   ```bash
   /plugin install waza-learn@claude-code-awesome
-  ```
-
-[← Back to Available Plugins](#-available-plugins)
-
-### Design Extract
-
-- **Name**: `design-extract`
-- **Description**: Extract the complete design language from any website — colors, typography, spacing, shadows, components, and more. Outputs AI-optimized markdown, W3C design tokens, Tailwind config, and CSS variables.
-- **Category**: Design
-- **Author**: Manavarya Singh
-- **Repository**: <a href="https://github.com/Manavarya09/design-extract" target="_blank">Manavarya09/design-extract</a>
-- **Keywords**: design-system, design-tokens, css, tailwind, typography, colors, web-scraping
-- **License**: MIT
-- **Version**: 12.10.1
-- **Installation**:
-  ```bash
-  /plugin install design-extract@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
@@ -787,7 +769,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Author**: Matt Van Horn
 - **Repository**: <a href="https://github.com/mvanhorn/last30days-skill" target="_blank">mvanhorn/last30days-skill</a>
 - **Keywords**: reddit, youtube, twitter, hackernews, polymarket, research, web-search, tiktok, instagram, trends
-- **Version**: 3.16.0
+- **Version**: 3.18.3
 - **Installation**:
   ```bash
   /plugin install last30days@claude-code-awesome
@@ -838,7 +820,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/coreyhaines31/marketingskills" target="_blank">coreyhaines31/marketingskills</a>
 - **Keywords**: marketing, cro, copywriting, seo, cold-email, paid-ads, analytics, churn, growth, revops, sales, pricing
 - **License**: MIT
-- **Version**: 2.8.12
+- **Version**: 2.9.0
 - **Installation**:
   ```bash
   /plugin install marketingskills@claude-code-awesome
@@ -855,7 +837,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/alexgreensh/token-optimizer" target="_blank">alexgreensh/token-optimizer</a>
 - **Keywords**: token, optimization, context, audit, cost, coach
 - **License**: PolyForm-Noncommercial-1.0.0
-- **Version**: 5.11.50
+- **Version**: 5.11.66
 - **Installation**:
   ```bash
   /plugin install token-optimizer@claude-code-awesome
@@ -956,7 +938,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/pbakaus/impeccable" target="_blank">pbakaus/impeccable</a>
 - **Keywords**: design, frontend, ui, ux, skills, commands
 - **License**: Apache-2.0
-- **Version**: 3.9.1
+- **Version**: 4.0.2
 - **Installation**:
   ```bash
   /plugin install impeccable@claude-code-awesome
@@ -1007,7 +989,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/kanevry/session-orchestrator" target="_blank">kanevry/session-orchestrator</a>
 - **Keywords**: session, orchestration, waves, gitlab, github, quality-gates, subagents
 - **License**: MIT
-- **Version**: 3.14.0
+- **Version**: 3.17.0
 - **Installation**:
   ```bash
   /plugin install session-orchestrator@claude-code-awesome
@@ -1024,7 +1006,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/lopushok9/Agent-Layer" target="_blank">lopushok9/Agent-Layer</a>
 - **Keywords**: wallet, solana, bitcoin, evm, agentlayer
 - **License**: PolyForm Small Business License 1.0.0
-- **Version**: 0.1.44
+- **Version**: 0.1.90
 - **Installation**:
   ```bash
   /plugin install agent-wallet@claude-code-awesome
@@ -1058,7 +1040,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/DietrichGebert/ponytail" target="_blank">DietrichGebert/ponytail</a>
 - **Keywords**: developer-tools, ai-agents, claude, yagni, llm, prompt-engineering, agent-skills, cursor-rules, claude-code, claude-code-plugin
 - **License**: MIT
-- **Version**: 4.6.0
+- **Version**: 4.8.4
 - **Installation**:
   ```bash
   /plugin install ponytail@claude-code-awesome
@@ -1092,6 +1074,7 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Repository**: <a href="https://github.com/shadcn/improve" target="_blank">shadcn/improve</a>
 - **Keywords**: audit, code-review, planning, agent-skills, security, performance
 - **License**: MIT
+- **Version**: 1.0.0
 - **Installation**:
   ```bash
   /plugin install improve@claude-code-awesome
