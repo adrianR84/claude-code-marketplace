@@ -83,7 +83,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [pixelbrowse](#pixelbrowse) | 0.1.0 | Zhifei Li | Screenshot any URL with pixelshot and read it visually
 | [improve](#improve) | — | shadcn | Audits codebases and writes implementation plans for agents
 | [claude-video](#claude-video) | 0.2.0 | Brad Bonanno | Give Claude the ability to watch and analyze any video
-| [taste-skill](#taste-skill) | 1.0.0 | leonxlnx | Anti-slop frontend design taste skills — brutalist, minimalist, soft, and more
+| [taste-skill](#taste-skill) | 1.0.0 | leonxlnx | Anti-slop frontend design taste skills — brutalist, minimalist, soft, and more |
+| [mattpocock-skills](#mattpocock-skills) | 1.2.0 | Matt Pocock | Engineering skills — grilling, TDD, code review, domain modelling
 
 ### Telegram Notifications
 
@@ -1128,6 +1129,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install taste-skill@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Mattpocock Skills
+
+- **Name**: `mattpocock-skills`
+- **Description**: Matt Pocock's agent skills for real engineering — grilling, spec/ticket flows, TDD, code review, domain modelling and more.
+- **Category**: Development
+- **Author**: Matt Pocock
+- **Repository**: <a href="https://github.com/mattpocock/skills" target="_blank">mattpocock/skills</a>
+- **Keywords**: engineering, skills, tdd, code-review, grilling, domain-modeling, productivity
+- **License**: MIT
+- **Version**: 1.2.0
+- **Installation**:
+  ```bash
+  /plugin install mattpocock-skills@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)

@@ -73,7 +73,12 @@ Extract:
 - **author**: The GitHub owner/organization name
 - **topics/keywords**: From repo topics if available
 - **license**: If visible on the repo page
-- **version**: Check the repo's marketplace.json (either `/.claude-plugin/marketplace.json` or `/marketplace.json`) or README for a version field. Include version if found, omit if not available. Do not invent a version number.
+- **version**: Check the repo's structured files in order:
+  1. `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/plugin.json` — has `version` field
+  2. `https://raw.githubusercontent.com/{owner}/{repo}/main/.claude-plugin/marketplace.json` — has `plugins[].version`
+  3. `https://raw.githubusercontent.com/{owner}/{repo}/main/marketplace.json` — has `plugins[].version`
+  4. README for a manually declared version
+  Include version if found, omit if not available. Do not invent a version number.
 
 ### Step 4: Determine Category
 
