@@ -1418,6 +1418,29 @@
       },
       "license": "MIT",
       "version": "1.2.0"
+    },
+    {
+      "name": "agent-recall",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/JCodesMore/agent-recall"
+      },
+      "description": "Let your AI agent find any conversation you've had across Claude Code, Codex, and OpenCode.",
+      "category": "productivity",
+      "repository": "https://github.com/JCodesMore/agent-recall",
+      "keywords": [
+        "memory",
+        "conversations",
+        "claude-code",
+        "codex",
+        "opencode",
+        "search",
+        "sqlite"
+      ],
+      "author": {
+        "name": "JCodesMore"
+      },
+      "version": "0.5.0"
     }
   ]
 }

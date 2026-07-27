@@ -83,7 +83,8 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 | [improve](#improve) | 1.0.0 | shadcn | Audits codebases and writes implementation plans for agents
 | [claude-video](#claude-video) | 0.2.0 | Brad Bonanno | Give Claude the ability to watch and analyze any video
 | [taste-skill](#taste-skill) | 1.0.0 | leonxlnx | Anti-slop frontend design taste skills — brutalist, minimalist, soft, and more |
-| [mattpocock-skills](#mattpocock-skills) | 1.2.0 | Matt Pocock | Engineering skills — grilling, TDD, code review, domain modelling
+| [mattpocock-skills](#mattpocock-skills) | 1.2.0 | Matt Pocock | Engineering skills — grilling, TDD, code review, domain modelling |
+| [agent-recall](#agent-recall) | 0.5.0 | JCodesMore | Find any conversation across Claude Code, Codex, and OpenCode |
 
 ### Telegram Notifications
 
@@ -1129,6 +1130,23 @@ You should see `claude-code-awesome` in the list of available marketplaces.
 - **Installation**:
   ```bash
   /plugin install mattpocock-skills@claude-code-awesome
+  ```
+
+[← Back to Available Plugins](#-available-plugins)
+
+### Agent Recall
+
+- **Name**: `agent-recall`
+- **Description**: Let your AI agent find any conversation you've had across Claude Code, Codex, and OpenCode.
+- **Category**: Productivity
+- **Author**: JCodesMore
+- **Repository**: <a href="https://github.com/JCodesMore/agent-recall" target="_blank">JCodesMore/agent-recall</a>
+- **Keywords**: memory, conversations, claude-code, codex, opencode, search, sqlite
+- **License**: MIT
+- **Version**: 0.5.0
+- **Installation**:
+  ```bash
+  /plugin install agent-recall@claude-code-awesome
   ```
 
 [← Back to Available Plugins](#-available-plugins)
